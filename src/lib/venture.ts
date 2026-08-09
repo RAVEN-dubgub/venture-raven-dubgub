@@ -44,4 +44,4 @@ export const LEARNING_APP_URL =
 
 export const SITE_NAME = "Agent Git Lab Teams";
 
-export const FOUNDER_DISPLAY_NAME = "RAVEN";
+export const FOUNDER_DISPLAY_NAME = "@raven-dubgub";

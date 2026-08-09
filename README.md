@@ -1,12 +1,12 @@
 # Agent Git Lab Teams - Phase 2 Venture
 
-**RAVEN** · Hult Cohort Developer Program · Summer 2026 · Week 6 Venture
+**@raven-dubgub** · Hult Cohort Developer Program · Summer 2026 · Week 6 Venture
 
 Production URL: **https://venture-raven-dubgub.vercel.app** (set after deploy)
 
 ## Venture thesis
 
-B2B team onboarding for bootcamps and cohort programs. Operators create a workspace, launch learners into [Agent Git Lab](https://learning-raven-dubgub.vercel.app), and track qualified product actions. Built on RAVEN's existing cohort stack (PM, comms, showcase, learning app).
+B2B team onboarding for bootcamps and cohort programs. Operators create a workspace, launch learners into [Agent Git Lab](https://learning-raven-dubgub.vercel.app), and track qualified product actions. Built on @raven-dubgub's existing cohort stack (PM, comms, showcase, learning app).
 
 ## Submission checklist
 
