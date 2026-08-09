@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { FOUNDER_DISPLAY_NAME } from "@/lib/venture";
+import { PRODUCTION_URL, SITE_NAME } from "@/lib/venture";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -15,9 +16,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agent Git Lab Teams | Venture",
+  title: {
+    default: `${SITE_NAME} | B2B Cohort Onboarding`,
+    template: `%s | ${SITE_NAME}`,
+  },
   description:
-    "B2B venture package for bootcamp operators: team onboarding, Git/GitHub learning paths, and cohort-ready metrics.",
+    "Team onboarding for bootcamp operators: launch Git and GitHub learning paths, track qualified learner actions, and connect to Agent Git Lab.",
+  metadataBase: new URL(PRODUCTION_URL),
+  openGraph: {
+    title: SITE_NAME,
+    description:
+      "B2B team portal for bootcamps and cohort programs. Workspace setup, learner launch links, and venture metrics.",
+    url: PRODUCTION_URL,
+    siteName: SITE_NAME,
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -27,12 +40,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="flex min-h-full flex-col">
         <SiteHeader />
         <main className="flex-1">{children}</main>
-        <footer className="border-t border-[var(--border)] px-4 py-6 text-center text-sm text-[var(--muted)]">
-          {FOUNDER_DISPLAY_NAME} · Hult Cohort Phase 2 Venture · Summer 2026
-        </footer>
+        <SiteFooter />
       </body>
     </html>
   );

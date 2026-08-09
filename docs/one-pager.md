@@ -1,17 +1,19 @@
 # Agent Git Lab Teams - one-pager
 
-**Problem:** Bootcamp operators lose weeks to Git/GitHub onboarding friction.
+**Problem:** Bootcamp operators lose weeks to Git and GitHub onboarding friction. Learners stall before their first meaningful pull request.
 
-**Solution:** Team portal + Agent Git Lab learner paths with qualified-action metrics.
+**Solution:** Team portal plus Agent Git Lab learner paths with qualified-action metrics. Operators create a workspace, share a launch link, and track cohort progress.
 
-**Market:** Bootcamps, university cohorts, internal academies (SAM ~$780M).
+**Market:** Bootcamps, university cohorts, internal academies (SAM ~$780M in NA/EU cohort-based programs).
 
-**Traction:** Production cohort stack (PM, comms, showcase, learning app) by @raven-dubgub.
+**Traction:** Production cohort stack (PM, comms, showcase, learning app) shipped by RAVEN (@raven-dubgub) during Hult Cohort Developer Program.
 
-**Model:** Starter $49/mo · Pro $149/mo per cohort.
+**Business model:** Starter $49/mo per cohort (≤30 seats) · Pro $149/mo (≤120 seats, analytics export, priority support).
 
-**Ask:** 3 pilot operators + angel intros for $250k pre-seed.
+**Go-to-market:** Founder-led outreach to bootcamp directors, demo days, GitHub Education partners. Target three pilot operators in Q4 2026.
 
-**Contact:** @raven-dubgub · venture-raven-dubgub (deploy URL pending)
+**Ask:** Pilot partnerships, angel intros, and $250k pre-seed to hire the first customer success lead.
+
+**Contact:** RAVEN · @raven-dubgub · https://venture-raven-dubgub.vercel.app
 
 Export this file to PDF as docs/one-pager.pdf before submission.

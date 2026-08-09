@@ -1,25 +1,52 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Business plan",
+};
 
 function markdownToHtml(markdown: string) {
-  return markdown
-    .split("\n")
-    .map((line) => {
-      if (line.startsWith("# ")) {
-        return `<h1>${line.slice(2)}</h1>`;
+  const lines = markdown.split("\n");
+  const parts: string[] = [];
+  let listOpen = false;
+
+  function closeList() {
+    if (listOpen) {
+      parts.push("</ul>");
+      listOpen = false;
+    }
+  }
+
+  for (const line of lines) {
+    if (line.startsWith("# ")) {
+      closeList();
+      parts.push(`<h1>${line.slice(2)}</h1>`);
+      continue;
+    }
+    if (line.startsWith("## ")) {
+      closeList();
+      parts.push(`<h2>${line.slice(3)}</h2>`);
+      continue;
+    }
+    if (line.startsWith("- ")) {
+      if (!listOpen) {
+        parts.push("<ul>");
+        listOpen = true;
       }
-      if (line.startsWith("## ")) {
-        return `<h2>${line.slice(3)}</h2>`;
-      }
-      if (line.startsWith("- ")) {
-        return `<li>${line.slice(2)}</li>`;
-      }
-      if (line.trim() === "") {
-        return "";
-      }
-      return `<p>${line}</p>`;
-    })
-    .join("\n");
+      parts.push(`<li>${line.slice(2)}</li>`);
+      continue;
+    }
+    if (line.trim() === "") {
+      closeList();
+      continue;
+    }
+    closeList();
+    parts.push(`<p>${line}</p>`);
+  }
+
+  closeList();
+  return parts.join("\n");
 }
 
 export default async function BusinessPlanPage() {
@@ -28,12 +55,14 @@ export default async function BusinessPlanPage() {
   const html = markdownToHtml(markdown);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
-      <p className="text-sm text-[var(--muted)]">Draft · export PDF to docs/business-plan.pdf before submission</p>
-      <article
-        className="prose-doc card mt-4"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+    <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-14">
+      <p className="section-label">Venture documentation</p>
+      <h1 className="mt-2 text-3xl font-bold tracking-tight">Business plan</h1>
+      <p className="mt-3 text-sm text-[var(--muted)]">
+        Full plan for reviewers and investors. Export to PDF as docs/business-plan.pdf before
+        submission.
+      </p>
+      <article className="prose-doc card mt-6" dangerouslySetInnerHTML={{ __html: html }} />
     </div>
   );
 }

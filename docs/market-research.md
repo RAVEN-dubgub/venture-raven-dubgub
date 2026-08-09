@@ -1,9 +1,10 @@
 # Market research: Agent Git Lab Teams
 
-## Problem
-Bootcamp operators spend the first 2-3 weeks of a cohort on tooling setup instead of shipping. Git/GitHub fluency is a gate for agent-first development, but most programs rely on fragmented tutorials.
+## Problem statement
+Bootcamp operators spend the first two to three weeks of a cohort on tooling setup instead of shipping. Git and GitHub fluency is a gate for agent-first development, but most programs rely on fragmented tutorials across Discord, Notion, and ad hoc workshops.
 
-## Interviews (5)
+## Customer interviews (5)
+
 ### Interview 1: Bootcamp instructor (anonymized)
 - Quote: "We lose a week every cohort re-explaining branches in Discord."
 - Insight: Needs a single launch link and proof learners started.
@@ -29,11 +30,21 @@ Bootcamp operators spend the first 2-3 weeks of a cohort on tooling setup instea
 - SAM: North America and Europe bootcamps with cohort-based models (~$780M)
 - SOM: 500 operator accounts in year 3 at $820 average ACV (~$410k)
 
-## Competition
-GitHub Education, Codecademy Teams, Pluralsight Skills, Notion + Discord stacks, custom LMS builds. Positioning: cohort-native, agent-first Git paths, fast deploy.
+## Competitive landscape
+| Competitor | Strength | Gap we fill |
+|------------|----------|-------------|
+| GitHub Education | Free repos, classroom tools | No cohort onboarding portal or guided agent-first paths |
+| Codecademy for Teams | Structured curriculum | Generic, not cohort-native or agent-focused |
+| Notion + Discord stacks | Flexible, low cost | No learner launch links or qualified-action metrics |
+| Custom LMS builds | Full control | Months to ship, high maintenance |
 
-## ICP
-Bootcamp director or program lead at 20-200 seat cohorts, English-speaking markets, already using GitHub Classroom or similar.
+## Ideal customer profile
+Bootcamp director or program lead at 20 to 200 seat cohorts, English-speaking markets, already using GitHub Classroom or similar.
 
-## Wedge
-Ship in days using @raven-dubgub's proven cohort stack (PM, comms, showcase, learning app) with separate venture metrics namespace.
+## Positioning wedge
+Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning app) with a separate venture metrics namespace. Operators get workspace setup, learner launch, and submission-ready analytics without rebuilding infrastructure.
+
+## Validation signals
+- Five customer interviews confirm Git onboarding as top-three cohort pain point
+- Production cohort stack already live with four connected products
+- Starter pricing ($49/mo) validated as plausible by indie program operator interview

@@ -39,9 +39,32 @@ export function countQualifiedUsers(
   return qualified.size;
 }
 
+export const PRODUCTION_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://venture-raven-dubgub.vercel.app";
+
 export const LEARNING_APP_URL =
   process.env.NEXT_PUBLIC_LEARNING_APP_URL ?? "https://learning-raven-dubgub.vercel.app";
 
 export const SITE_NAME = "Agent Git Lab Teams";
 
-export const FOUNDER_DISPLAY_NAME = "@raven-dubgub";
+export const FOUNDER_DISPLAY_NAME = "RAVEN";
+export const FOUNDER_GITHUB = "@raven-dubgub";
+
+export const COHORT_PRODUCTS = [
+  {
+    label: "Agent Git Lab (learner app)",
+    href: LEARNING_APP_URL,
+  },
+  {
+    label: "Cohort PM",
+    href: "https://pm-raven-dubgub.vercel.app",
+  },
+  {
+    label: "Cohort comms",
+    href: "https://comms-raven-dubgub.vercel.app",
+  },
+  {
+    label: "Public showcase",
+    href: "https://showcase-raven-dubgub.vercel.app",
+  },
+] as const;
