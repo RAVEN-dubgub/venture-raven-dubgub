@@ -33,35 +33,29 @@ export default function ProductAppPage() {
 
 
   async function refreshSession() {
-
-    const me = await fetch("/api/auth/me");
-
-    if (me.ok) {
-
-      const data = await me.json();
-
-      setUser(data.user);
-
-      const teamsRes = await fetch("/api/teams");
-
-      if (teamsRes.ok) {
-
-        const teamsData = await teamsRes.json();
-
-        setTeams(teamsData.teams);
-
+    try {
+      const me = await fetch("/api/auth/me");
+      if (me.ok) {
+        const data = await me.json();
+        setUser(data.user);
+        const teamsRes = await fetch("/api/teams");
+        if (teamsRes.ok) {
+          const teamsData = await teamsRes.json();
+          setTeams(teamsData.teams);
+        } else {
+          setTeams([]);
+          setMessage("Unable to load teams. Try refreshing the page.");
+        }
+      } else {
+        setUser(null);
+        setTeams([]);
       }
-
-    } else {
-
+    } catch {
       setUser(null);
-
       setTeams([]);
-
+      setMessage("Network error while loading your workspace.");
     }
-
     setLoading(false);
-
   }
 
 
@@ -70,20 +64,30 @@ export default function ProductAppPage() {
     let cancelled = false;
 
     async function loadSession() {
-      const me = await fetch("/api/auth/me");
-      if (cancelled) return;
+      try {
+        const me = await fetch("/api/auth/me");
+        if (cancelled) return;
 
-      if (me.ok) {
-        const data = await me.json();
-        setUser(data.user);
-        const teamsRes = await fetch("/api/teams");
-        if (!cancelled && teamsRes.ok) {
-          const teamsData = await teamsRes.json();
-          setTeams(teamsData.teams);
+        if (me.ok) {
+          const data = await me.json();
+          setUser(data.user);
+          const teamsRes = await fetch("/api/teams");
+          if (!cancelled && teamsRes.ok) {
+            const teamsData = await teamsRes.json();
+            setTeams(teamsData.teams);
+          } else if (!cancelled) {
+            setTeams([]);
+          }
+        } else {
+          setUser(null);
+          setTeams([]);
         }
-      } else {
-        setUser(null);
-        setTeams([]);
+      } catch {
+        if (!cancelled) {
+          setUser(null);
+          setTeams([]);
+          setMessage("Network error while loading your workspace.");
+        }
       }
 
       if (!cancelled) {
@@ -120,26 +124,22 @@ export default function ProductAppPage() {
 
 
 
-    const response = await fetch("/api/auth", {
-
-      method: mode === "signup" ? "POST" : "PUT",
-
-      headers: { "Content-Type": "application/json" },
-
-      body: JSON.stringify(payload),
-
-    });
-
-
+    let response: Response;
+    try {
+      response = await fetch("/api/auth", {
+        method: mode === "signup" ? "POST" : "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+    } catch {
+      setMessage("Network error. Check your connection and try again.");
+      return;
+    }
 
     if (!response.ok) {
-
-      const error = await response.json();
-
+      const error = await response.json().catch(() => ({}));
       setMessage(error.error ?? "Authentication failed");
-
       return;
-
     }
 
 
@@ -160,26 +160,22 @@ export default function ProductAppPage() {
 
 
 
-    const response = await fetch("/api/teams", {
-
-      method: "POST",
-
-      headers: { "Content-Type": "application/json" },
-
-      body: JSON.stringify({ name: teamName }),
-
-    });
-
-
+    let response: Response;
+    try {
+      response = await fetch("/api/teams", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: teamName }),
+      });
+    } catch {
+      setMessage("Network error. Check your connection and try again.");
+      return;
+    }
 
     if (!response.ok) {
-
-      const error = await response.json();
-
+      const error = await response.json().catch(() => ({}));
       setMessage(error.error ?? "Unable to create team");
-
       return;
-
     }
 
 
@@ -195,11 +191,17 @@ export default function ProductAppPage() {
 
 
   async function handleDemoLesson() {
-
-    await fetch("/api/events/demo-lesson", { method: "POST" });
-
-    window.open(LEARNING_APP_URL, "_blank", "noopener,noreferrer");
-
+    try {
+      const response = await fetch("/api/events/demo-lesson", { method: "POST" });
+      if (!response.ok) {
+        const error = await response.json().catch(() => ({}));
+        setMessage(error.error ?? "Unable to start demo lesson. Sign in and try again.");
+        return;
+      }
+      window.open(LEARNING_APP_URL, "_blank", "noopener,noreferrer");
+    } catch {
+      setMessage("Network error while starting the demo lesson.");
+    }
   }
 
 

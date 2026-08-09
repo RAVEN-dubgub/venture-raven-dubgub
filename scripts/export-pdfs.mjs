@@ -2,7 +2,7 @@
  * Export submission PDFs to docs/
  * Run: node scripts/export-pdfs.mjs
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { mdToPdf } from "md-to-pdf";

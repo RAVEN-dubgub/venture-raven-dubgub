@@ -10,17 +10,22 @@ const teamSchema = z.object({
 });
 
 export async function GET() {
-  const user = await requireUser();
-  if (!user) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  try {
+    const user = await requireUser();
+    if (!user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    const teams = await prisma.teamWorkspace.findMany({
+      where: { ownerId: user.id },
+      orderBy: { createdAt: "desc" },
+    });
+
+    return NextResponse.json({ teams });
+  } catch (error) {
+    console.error("teams list failed", error);
+    return NextResponse.json({ error: "Unable to load teams" }, { status: 503 });
   }
-
-  const teams = await prisma.teamWorkspace.findMany({
-    where: { ownerId: user.id },
-    orderBy: { createdAt: "desc" },
-  });
-
-  return NextResponse.json({ teams });
 }
 
 export async function POST(request: Request) {

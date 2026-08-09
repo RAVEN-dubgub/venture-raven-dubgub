@@ -20,14 +20,14 @@ Due **Wed Aug 19, 2026, 17:00 Eastern Time** (merged PR to hult-cohort-program).
 
 | Artifact | Path | Status |
 |----------|------|--------|
-| Market research packet | `docs/market-research.md` | Secondary research done; **5 external interviews pending (Joshua)** |
+| Market research packet | `docs/market-research.md` | Secondary research done; **5 external interviews pending (founder)** |
 | Business plan | `docs/business-plan.md` | Complete |
 | Business plan PDF | `docs/business-plan.pdf` | Complete |
 | Financial model | `docs/financial-model.md`, `docs/financial-model.csv` | Complete |
 | Pitch deck PDF | `docs/pitch-deck.pdf` | Complete |
 | One-pager PDF | `docs/one-pager.pdf` | Complete |
 | Production app | https://venture-raven-dubgub.vercel.app | Live |
-| Investor log | `INVESTOR_LOG.md` | Templates ready; **≥1 touch pending (Joshua)** |
+| Investor log | `INVESTOR_LOG.md` | Templates ready; **≥1 touch pending (founder)** |
 | Metrics snapshot | `GET /api/metrics` | Live (`qualified_users`: promote external signups) |
 | Cohort submission PR | `hult-cohort-program/submissions/raven-dubgub-p2-venture.md` | Draft ready |
 | Human-only gates | `JOSHUA-TODO.md` | Documented |
@@ -36,9 +36,9 @@ Due **Wed Aug 19, 2026, 17:00 Eastern Time** (merged PR to hult-cohort-program).
 
 | Gate | Status |
 |------|--------|
-| ≥ **25 qualified external users** on venture metrics | **Blocked on Joshua** (0 at Aug 9 snapshot) |
-| ≥ **1 qualified investor touchpoint** in `INVESTOR_LOG.md` | **Blocked on Joshua** |
-| 5 external customer interviews | **Blocked on Joshua** (template in market research) |
+| ≥ **25 qualified external users** on venture metrics | **Blocked on founder** (0 at Aug 9 snapshot) |
+| ≥ **1 qualified investor touchpoint** in `INVESTOR_LOG.md` | **Blocked on founder** |
+| 5 external customer interviews | **Blocked on founder** (template in market research) |
 | Complete doc set in repo + merged `[P2-Venture] Submission - raven-dubgub` PR | Docs done; PR open; merge needs staff + gates |
 
 See **`JOSHUA-TODO.md`** for exact next actions on human-only items.

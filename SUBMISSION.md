@@ -1,4 +1,4 @@
-# Phase 2 Venture Submission — @raven-dubgub
+# Phase 2 Venture Submission - @raven-dubgub
 
 Full cohort PR body lives at:
 
