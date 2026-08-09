@@ -23,6 +23,6 @@
 
 ## This project
 
-Venture extends Joshua's Agent Git Lab learning app into a B2B team portal. Venture metrics use namespace `venture-agent-git-lab-teams` (distinct from learning app Ludwitt registration).
+Venture extends @raven-dubgub's Agent Git Lab learning app into a B2B team portal. Venture metrics use namespace `venture-agent-git-lab-teams` (distinct from learning app Ludwitt registration).
 
 Human steps: Neon DB, Vercel env vars, PDF exports, investor outreach, external user promotion.

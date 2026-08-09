@@ -20,7 +20,7 @@ export default function PrivacyPage() {
           request deletion.
         </p>
         <h2>Contact</h2>
-        <p>Joshua Scotland · RAVEN-dubgub on GitHub</p>
+        <p>@raven-dubgub · RAVEN-dubgub on GitHub</p>
       </article>
     </div>
   );

@@ -36,4 +36,4 @@ GitHub Education, Codecademy Teams, Pluralsight Skills, Notion + Discord stacks,
 Bootcamp director or program lead at 20-200 seat cohorts, English-speaking markets, already using GitHub Classroom or similar.
 
 ## Wedge
-Ship in days using Joshua's proven cohort stack (PM, comms, showcase, learning app) with separate venture metrics namespace.
+Ship in days using @raven-dubgub's proven cohort stack (PM, comms, showcase, learning app) with separate venture metrics namespace.

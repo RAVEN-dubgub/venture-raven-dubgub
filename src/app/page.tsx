@@ -49,7 +49,7 @@ export default function HomePage() {
         <article className="card">
           <h2 className="text-lg font-semibold">Traction path</h2>
           <p className="mt-2 text-sm text-[var(--muted)]">
-            Built on Joshua&apos;s cohort stack (PM, comms, showcase, learning app). Venture metrics
+            Built on @raven-dubgub&apos;s cohort stack (PM, comms, showcase, learning app). Venture metrics
             use a separate namespace from the learning app.
           </p>
         </article>
