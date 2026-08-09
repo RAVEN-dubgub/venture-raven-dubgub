@@ -1,4 +1,4 @@
-# Agent workflow — Agent Git Lab Teams (Venture)
+# Agent workflow - Agent Git Lab Teams (Venture)
 
 ## Stack
 
@@ -18,7 +18,7 @@
 ## Conventions
 
 - Branch: `participants/summer26/phase-2-venture/RAVEN-dubgub`
-- PR title (program): `[P2-Venture] Submission — raven-dubgub`
+- PR title (program): `[P2-Venture] Submission - raven-dubgub`
 - Run `npm run test` and `npm run build` before claiming done
 
 ## This project

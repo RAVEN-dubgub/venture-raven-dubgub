@@ -5,7 +5,7 @@ Log qualified investor touchpoints here. Redact PII in the submission PR body; p
 ## Template
 
 ```markdown
-## YYYY-MM-DD — Name — Role at Firm
+## YYYY-MM-DD - Name - Role at Firm
 - Type: email / 30-min video call / demo day
 - Outcome: feedback summary (no private contact info in PR)
 - Verified by: placement lead (pending)

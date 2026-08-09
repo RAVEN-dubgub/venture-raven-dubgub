@@ -11,7 +11,7 @@
 
 ## Investor touch
 
-<!-- Redact PII — summary only -->
+<!-- Redact PII - summary only -->
 
 ## Checklist
 

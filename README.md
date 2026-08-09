@@ -1,4 +1,4 @@
-# Agent Git Lab Teams — Phase 2 Venture
+# Agent Git Lab Teams - Phase 2 Venture
 
 **Joshua Scotland (@raven-dubgub)** · Hult Cohort Developer Program · Summer 2026 · Week 6 Venture
 
@@ -26,7 +26,7 @@ Due **Wed Aug 19, 2026, 17:00 Eastern Time** (merged PR to hult-cohort-program).
 
 - ≥ **25 qualified external users** on venture metrics snapshot (separate namespace from learning app)
 - ≥ **1 qualified investor touchpoint** logged in `INVESTOR_LOG.md`
-- Complete doc set in repo + merged `[P2-Venture] Submission — raven-dubgub` PR
+- Complete doc set in repo + merged `[P2-Venture] Submission - raven-dubgub` PR
 
 ## Stack
 

@@ -1,4 +1,4 @@
-# Deploy — Venture app (Neon + Vercel)
+# Deploy - Venture app (Neon + Vercel)
 
 ## 1. Neon
 
@@ -10,7 +10,7 @@ Create project `venture-raven-dubgub`, copy pooled `DATABASE_URL`.
 cd venture-raven-dubgub
 git init
 git add .
-git commit -m "Week 6 venture scaffold — Agent Git Lab Teams"
+git commit -m "Week 6 venture scaffold - Agent Git Lab Teams"
 gh repo create RAVEN-dubgub/venture-raven-dubgub --public --source=. --remote=origin --push
 ```
 
@@ -37,7 +37,7 @@ Build command (Vercel): `prisma generate && prisma migrate deploy && next build`
 
 ## 5. Submission PR
 
-Open PR to `hult-cohort-program` with title `[P2-Venture] Submission — raven-dubgub` including:
+Open PR to `hult-cohort-program` with title `[P2-Venture] Submission - raven-dubgub` including:
 
 - Production URL
 - Deck path (`docs/pitch-deck.pdf` once exported)
