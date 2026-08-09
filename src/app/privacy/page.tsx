@@ -1,3 +1,5 @@
+import { FOUNDER_DISPLAY_NAME } from "@/lib/venture";
+
 export default function PrivacyPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10 sm:px-6">
@@ -16,11 +18,11 @@ export default function PrivacyPage() {
         </p>
         <h2>Retention</h2>
         <p>
-          Account data is retained while the workspace is active. Contact raven-dubgub on GitHub to
-          request deletion.
+          Account data is retained while the workspace is active. Contact {FOUNDER_DISPLAY_NAME} on
+          GitHub (raven-dubgub) to request deletion.
         </p>
         <h2>Contact</h2>
-        <p>@raven-dubgub · RAVEN-dubgub on GitHub</p>
+        <p>{FOUNDER_DISPLAY_NAME} · GitHub: raven-dubgub</p>
       </article>
     </div>
   );

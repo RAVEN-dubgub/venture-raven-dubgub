@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
+import { FOUNDER_DISPLAY_NAME } from "@/lib/venture";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,7 +31,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <footer className="border-t border-[var(--border)] px-4 py-6 text-center text-sm text-[var(--muted)]">
-          @raven-dubgub · Hult Cohort Phase 2 Venture · Summer 2026
+          {FOUNDER_DISPLAY_NAME} · Hult Cohort Phase 2 Venture · Summer 2026
         </footer>
       </body>
     </html>

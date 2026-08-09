@@ -1,3 +1,5 @@
+import { FOUNDER_DISPLAY_NAME } from "@/lib/venture";
+
 const slides = [
   {
     title: "Agent Git Lab Teams",
@@ -17,7 +19,7 @@ const slides = [
   },
   {
     title: "Traction",
-    body: "Built on @raven-dubgub's Hult cohort stack: PM, comms, showcase, and learning app already in production.",
+    body: `Built on ${FOUNDER_DISPLAY_NAME}'s Hult cohort stack: PM, comms, showcase, and learning app already in production.`,
   },
   {
     title: "Business model",
@@ -29,7 +31,7 @@ const slides = [
   },
   {
     title: "Team",
-    body: "@raven-dubgub - full-stack builder, cohort PM/comms/showcase/learning apps shipped solo with agent workflows.",
+    body: `${FOUNDER_DISPLAY_NAME} - full-stack builder, cohort PM/comms/showcase/learning apps shipped solo with agent workflows.`,
   },
   {
     title: "Ask",

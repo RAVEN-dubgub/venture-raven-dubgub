@@ -43,3 +43,5 @@ export const LEARNING_APP_URL =
   process.env.NEXT_PUBLIC_LEARNING_APP_URL ?? "https://learning-raven-dubgub.vercel.app";
 
 export const SITE_NAME = "Agent Git Lab Teams";
+
+export const FOUNDER_DISPLAY_NAME = "RAVEN";

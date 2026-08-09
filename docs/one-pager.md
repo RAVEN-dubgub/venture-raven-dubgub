@@ -6,12 +6,12 @@
 
 **Market:** Bootcamps, university cohorts, internal academies (SAM ~$780M).
 
-**Traction:** Production cohort stack (PM, comms, showcase, learning app) by @raven-dubgub.
+**Traction:** Production cohort stack (PM, comms, showcase, learning app) by RAVEN.
 
 **Model:** Starter $49/mo · Pro $149/mo per cohort.
 
 **Ask:** 3 pilot operators + angel intros for $250k pre-seed.
 
-**Contact:** @raven-dubgub · venture-raven-dubgub (deploy URL pending)
+**Contact:** RAVEN · venture-raven-dubgub (deploy URL pending)
 
 Export this file to PDF as docs/one-pager.pdf before submission.
