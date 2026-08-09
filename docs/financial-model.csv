@@ -1,0 +1,20 @@
+year,metric,value,unit,notes
+2026,paying_cohorts_avg_active,12,cohorts,Y1 average active
+2026,new_cohorts_added,24,cohorts,Y1 gross adds
+2026,arr_december,42000,USD,80% Starter / 20% Pro mix
+2026,gross_margin_pct,82,percent,hosting + support
+2026,cac,120,USD,founder-led outreach
+2027,paying_cohorts_avg_active,45,cohorts,mix shift to Pro
+2027,new_cohorts_added,66,cohorts,
+2027,arr_december,165000,USD,
+2027,gross_margin_pct,82,percent,
+2027,cac,120,USD,
+2028,paying_cohorts_avg_active,110,cohorts,
+2028,new_cohorts_added,125,cohorts,
+2028,arr_december,410000,USD,
+2028,gross_margin_pct,82,percent,
+2028,cac,120,USD,
+pricing,starter_monthly,49,USD,up to 30 seats
+pricing,pro_monthly,149,USD,up to 120 seats
+unit_economics,starter_ltv_12mo,980,USD,labeled assumption
+unit_economics,pro_ltv_12mo,1790,USD,labeled assumption

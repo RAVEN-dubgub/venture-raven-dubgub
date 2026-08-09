@@ -9,7 +9,8 @@
     "lint": "eslint",
     "postinstall": "prisma generate",
     "db:migrate": "prisma migrate deploy",
-    "test": "tsx --test tests/**/*.test.ts"
+    "test": "tsx --test tests/**/*.test.ts",
+    "export:pdfs": "node scripts/export-pdfs.mjs"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
@@ -29,6 +30,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.12",
+    "md-to-pdf": "^5.2.5",
+    "puppeteer": "^25.5.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.11",
     "typescript": "^5"

@@ -32,6 +32,9 @@ Founder-led outreach to bootcamp directors, demo days, and alumni communities. I
 RAVEN (@raven-dubgub), founder and full-stack builder. First hire: customer success lead after 10 paying cohorts.
 
 ## Financial projections (3 years, summary)
+
+Full model: `docs/financial-model.md` and `docs/financial-model.csv`.
+
 Year 1: 24 paying cohorts, ~$42k ARR
 Year 2: 90 paying cohorts, ~$165k ARR
 Year 3: 220 paying cohorts, ~$410k ARR

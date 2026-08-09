@@ -16,4 +16,4 @@
 
 **Contact:** RAVEN · @raven-dubgub · https://venture-raven-dubgub.vercel.app
 
-Export this file to PDF as docs/one-pager.pdf before submission.
+PDF export: `docs/one-pager.pdf` (regenerate with `npm run export:pdfs`).

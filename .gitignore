@@ -42,3 +42,6 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# pdf export temp
+docs/.pitch-deck-export.html

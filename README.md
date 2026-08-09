@@ -6,6 +6,8 @@
 
 **Metrics endpoint:** https://venture-raven-dubgub.vercel.app/api/metrics
 
+**App namespace:** `venture-agent-git-lab-teams`
+
 **GitHub:** https://github.com/RAVEN-dubgub/venture-raven-dubgub
 
 ## Venture thesis
@@ -18,19 +20,28 @@ Due **Wed Aug 19, 2026, 17:00 Eastern Time** (merged PR to hult-cohort-program).
 
 | Artifact | Path | Status |
 |----------|------|--------|
-| Market research packet | `docs/market-research.md` | Complete |
-| Business plan | `docs/business-plan.md` | Complete (export PDF) |
-| Pitch deck PDF | `docs/pitch-deck.pdf` | Export from `/pitch` |
-| One-pager PDF | `docs/one-pager.pdf` | Export from `docs/one-pager.md` |
+| Market research packet | `docs/market-research.md` | Secondary research done; **5 external interviews pending (Joshua)** |
+| Business plan | `docs/business-plan.md` | Complete |
+| Business plan PDF | `docs/business-plan.pdf` | Complete |
+| Financial model | `docs/financial-model.md`, `docs/financial-model.csv` | Complete |
+| Pitch deck PDF | `docs/pitch-deck.pdf` | Complete |
+| One-pager PDF | `docs/one-pager.pdf` | Complete |
 | Production app | https://venture-raven-dubgub.vercel.app | Live |
-| Investor log | `INVESTOR_LOG.md` | Template ready (needs 1 qualified touch) |
-| Metrics snapshot | `GET /api/metrics` | Live after deploy + users |
+| Investor log | `INVESTOR_LOG.md` | Templates ready; **≥1 touch pending (Joshua)** |
+| Metrics snapshot | `GET /api/metrics` | Live (`qualified_users`: promote external signups) |
+| Cohort submission PR | `hult-cohort-program/submissions/raven-dubgub-p2-venture.md` | Draft ready |
+| Human-only gates | `JOSHUA-TODO.md` | Documented |
 
 ### Pass gates
 
-- ≥ **25 qualified external users** on venture metrics snapshot (separate namespace from learning app)
-- ≥ **1 qualified investor touchpoint** logged in `INVESTOR_LOG.md`
-- Complete doc set in repo + merged `[P2-Venture] Submission - raven-dubgub` PR
+| Gate | Status |
+|------|--------|
+| ≥ **25 qualified external users** on venture metrics | **Blocked on Joshua** (0 at Aug 9 snapshot) |
+| ≥ **1 qualified investor touchpoint** in `INVESTOR_LOG.md` | **Blocked on Joshua** |
+| 5 external customer interviews | **Blocked on Joshua** (template in market research) |
+| Complete doc set in repo + merged `[P2-Venture] Submission - raven-dubgub` PR | Docs done; PR open; merge needs staff + gates |
+
+See **`JOSHUA-TODO.md`** for exact next actions on human-only items.
 
 ## Stack
 
@@ -53,8 +64,9 @@ npm run dev
 |---------|---------|
 | `npm run dev` | Local development server |
 | `npm run build` | Production build (Prisma generate + Next.js) |
-| `npm run test` | Automated tests (5+ on critical helpers) |
+| `npm run test` | Automated tests (6 on critical helpers) |
 | `npm run lint` | ESLint |
+| `npm run export:pdfs` | Regenerate `docs/*.pdf` for submission |
 | `npm run db:migrate` | Deploy Prisma migrations |
 
 Deploy: [DEPLOY.md](./DEPLOY.md) · Reviewer smoke: [docs/REVIEWER.md](./docs/REVIEWER.md)
@@ -86,6 +98,7 @@ Deploy: [DEPLOY.md](./DEPLOY.md) · Reviewer smoke: [docs/REVIEWER.md](./docs/RE
 npm run test
 npm run build
 npm run lint
+npm run export:pdfs
 ```
 
 Then smoke test production:
@@ -94,4 +107,4 @@ Then smoke test production:
 2. `/app` signup, team creation, demo lesson
 3. `/pitch` and `/plan` render venture materials
 4. `/api/metrics` returns JSON with `snapshot_at` and `qualified_users`
-5. Export PDFs to `docs/pitch-deck.pdf` and `docs/one-pager.pdf`
+5. Confirm PDFs in `docs/pitch-deck.pdf`, `docs/one-pager.pdf`, `docs/business-plan.pdf`
