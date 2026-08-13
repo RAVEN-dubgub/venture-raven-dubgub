@@ -18,28 +18,28 @@ Build outreach list before cold emails. Fill firm, thesis fit, and warm intro pa
 
 | # | Name | Role / Firm | Focus (EdTech / DevTools / SaaS) | Warm intro? | Email sent? | Status |
 |---|------|-------------|-------------------------------------|-------------|-------------|--------|
-| 1 | | Partner | Reach Capital | EdTech / workforce learning | | | Not contacted |
-| 2 | | Partner | GSV Ventures | EdTech / skills platforms | | | Not contacted |
-| 3 | | Partner | Owl Ventures | EdTech growth stage | | | Not contacted |
-| 4 | | Partner | Learn Capital | Learning + future of work | | | Not contacted |
-| 5 | | Partner | Rethink Education | EdTech seed | | | Not contacted |
-| 6 | | Partner | Emerge Education | European EdTech seed | | | Not contacted |
-| 7 | | Partner | Brighteye Ventures | EdTech early stage | | | Not contacted |
-| 8 | | Partner | Bessemer Venture Partners | Cloud + dev platforms | | | Not contacted |
-| 9 | | Partner | Unusual Ventures | DevTools / PLG seed | | | Not contacted |
-| 10 | | Partner | Heavybit | Developer tools seed | | | Not contacted |
-| 11 | | Partner | Amplify Partners | DevTools / infra seed | | | Not contacted |
-| 12 | | Partner | Work-Bench | Enterprise devtools seed | | | Not contacted |
-| 13 | | Partner | Precursor Ventures | Pre-seed generalist | | | Not contacted |
-| 14 | | Partner | Haystack | Pre-seed generalist | | | Not contacted |
-| 15 | | Partner | Index Ventures | SaaS / dev platforms | | | Not contacted |
-| 16 | | Partner | NEA | EdTech + enterprise | | | Not contacted |
-| 17 | | Partner | General Catalyst | Workforce + SaaS | | | Not contacted |
-| 18 | | Partner | Accel | SaaS / dev infrastructure | | | Not contacted |
-| 19 | | Angel | EdTech operator angels (network) | Bootcamp / academy operators | | | Not contacted |
-| 20 | | Angel | DevTools angels (network) | PLG / infra founders | | | Not contacted |
+| 1 | [Partner TBD] | Partner | Reach Capital | EdTech / workforce learning | | | Draft ready |
+| 2 | [Partner TBD] | Partner | GSV Ventures | EdTech / skills platforms | | | Draft ready |
+| 3 | [Partner TBD] | Partner | Owl Ventures | EdTech growth stage | | | Draft ready |
+| 4 | [Partner TBD] | Partner | Learn Capital | Learning + future of work | | | Draft ready |
+| 5 | [Partner TBD] | Partner | Rethink Education | EdTech seed | | | Draft ready |
+| 6 | [Partner TBD] | Partner | Emerge Education | European EdTech seed | | | Draft ready |
+| 7 | [Partner TBD] | Partner | Brighteye Ventures | EdTech early stage | | | Draft ready |
+| 8 | [Partner TBD] | Partner | Bessemer Venture Partners | Cloud + dev platforms | | | Draft ready |
+| 9 | [Partner TBD] | Partner | Unusual Ventures | DevTools / PLG seed | | | Draft ready |
+| 10 | [Partner TBD] | Partner | Heavybit | Developer tools seed | | | Draft ready |
+| 11 | [Partner TBD] | Partner | Amplify Partners | DevTools / infra seed | | | Draft ready |
+| 12 | [Partner TBD] | Partner | Work-Bench | Enterprise devtools seed | | | Draft ready |
+| 13 | [Partner TBD] | Partner | Precursor Ventures | Pre-seed generalist | | | Draft ready |
+| 14 | [Partner TBD] | Partner | Haystack | Pre-seed generalist | | | Draft ready |
+| 15 | [Partner TBD] | Partner | Index Ventures | SaaS / dev platforms | | | Draft ready |
+| 16 | [Partner TBD] | Partner | NEA | EdTech + enterprise | | | Draft ready |
+| 17 | [Partner TBD] | Partner | General Catalyst | Workforce + SaaS | | | Draft ready |
+| 18 | [Partner TBD] | Partner | Accel | SaaS / dev infrastructure | | | Draft ready |
+| 19 | [Name TBD] | Angel | EdTech operator angels (network) | Bootcamp / academy operators | | | Draft ready |
+| 20 | [Name TBD] | Angel | DevTools angels (network) | PLG / infra founders | | | Draft ready |
 
-**Status values:** `Not contacted` · `Email sent` · `Replied` · `Call scheduled` · `Passed` · `Interested`
+**Status values:** `Not contacted` · `Draft ready` · `Email sent` · `Replied` · `Call scheduled` · `Passed` · `Interested`
 
 ## Outreach tracker
 
@@ -50,6 +50,8 @@ Build outreach list before cold emails. Fill firm, thesis fit, and warm intro pa
 
 Email template: `docs/investor-email.md`  
 Email variants (5): `docs/investor-emails/`  
+Ready-to-send (20): `docs/investor-emails/READY-TO-SEND.md`  
+Send workflow: `docs/investor-emails/SEND-CHECKLIST.md`  
 Deck: `docs/pitch-deck.pdf` or https://venture-raven-dubgub.vercel.app/pitch
 
 ## Touch log (qualified entries only)
@@ -66,14 +68,16 @@ Deck: `docs/pitch-deck.pdf` or https://venture-raven-dubgub.vercel.app/pitch
 
 ## Current status
 
-- Target list: **20 firms named** (Joshua fills partner names + outreach)
+- Target list: **20 firms named** (partner names TBD on firm team pages)
 - Email templates: **5 variants** in `docs/investor-emails/`
-- Outreach: **not started**
+- Ready-to-send drafts: **20** in `docs/investor-emails/READY-TO-SEND.md` (Status: Draft ready)
+- Outreach sent: **0** (Joshua sends from Gmail; see `SEND-CHECKLIST.md`)
 - Qualified touchpoints logged: **0** (pass gate requires ≥1 verified entry)
 
 ## Next actions (founder)
 
-1. Fill 20 rows in the target list (angels, pre-seed VCs, EdTech operators with checkbooks)
-2. Send 5 cold emails using `docs/investor-email.md` (personalize {{Name}} and thesis line)
-3. Log first real response in the touch log table above
-4. Request placement lead verification before submission PR merge
+1. Pick partner from each firm team page; replace `[Partner name TBD]` in READY-TO-SEND
+2. Send 5+ cold emails from Gmail using `docs/investor-emails/READY-TO-SEND.md`
+3. Update target list Status to `Email sent` only after you click Send
+4. Log first real response in the touch log table above
+5. Request placement lead verification before submission PR merge
