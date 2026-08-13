@@ -98,7 +98,7 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 ### Interview script template (copy per call)
 
-
+Full script: `docs/INTERVIEW-SCRIPT.md`
 
 ```
 
