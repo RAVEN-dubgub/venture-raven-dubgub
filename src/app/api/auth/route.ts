@@ -8,7 +8,7 @@ import {
 } from "@/lib/auth";
 import { recordProductEvent } from "@/lib/metrics-server";
 import { prisma } from "@/lib/prisma";
-import { normalizeEmail } from "@/lib/venture";
+import { isInternalSignupEmail, normalizeEmail } from "@/lib/venture";
 
 const signupSchema = z.object({
   email: z.string().email(),
@@ -31,6 +31,7 @@ export async function POST(request: Request) {
         email,
         name: body.name.trim(),
         passwordHash: await hashPassword(body.password),
+        isInternal: isInternalSignupEmail(email),
       },
       select: { id: true, email: true, name: true },
     });

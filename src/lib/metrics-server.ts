@@ -8,6 +8,12 @@ import {
   splitQualifiedUsers,
 } from "@/lib/venture";
 
+type EventRow = {
+  userId: string;
+  type: ProductEventType;
+  metadata: string | null;
+};
+
 export async function recordProductEvent(
   userId: string,
   type: ProductEventType,
@@ -22,13 +28,15 @@ export async function recordProductEvent(
   });
 }
 
-async function getInternalUserIds(
-  eventRows: Array<{ userId: string; type: ProductEventType; metadata: string | null }>,
-) {
+async function getInternalUserIds(eventRows: EventRow[]) {
   const internalUserIds = new Set<string>();
   const internalEmails = [...parseInternalEmailsFromEnv(process.env.METRICS_INTERNAL_EMAILS)];
 
-  const [internalTeams, internalEmailUsers] = await Promise.all([
+  const [internalFlagUsers, internalTeams, internalEmailUsers] = await Promise.all([
+    prisma.user.findMany({
+      where: { isInternal: true },
+      select: { id: true },
+    }),
     prisma.teamWorkspace.findMany({
       where: { slug: { in: [...INTERNAL_TEAM_SLUGS] } },
       select: { ownerId: true },
@@ -40,6 +48,10 @@ async function getInternalUserIds(
         })
       : Promise.resolve([]),
   ]);
+
+  for (const user of internalFlagUsers) {
+    internalUserIds.add(user.id);
+  }
 
   for (const team of internalTeams) {
     internalUserIds.add(team.ownerId);

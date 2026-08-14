@@ -3,6 +3,7 @@ import { describe, it } from "node:test";
 import {
   collectQualifiedUserIds,
   countQualifiedUsers,
+  isInternalSignupEmail,
   isInternalTeamSlug,
   isQualifiedEventType,
   normalizeEmail,
@@ -13,6 +14,15 @@ import {
 describe("normalizeEmail", () => {
   it("trims and lowercases email", () => {
     assert.equal(normalizeEmail("  Operator@Example.com "), "operator@example.com");
+  });
+});
+
+describe("isInternalSignupEmail", () => {
+  it("flags test+, smoke, and example.com signups", () => {
+    assert.equal(isInternalSignupEmail("test+smoke@acme.com"), true);
+    assert.equal(isInternalSignupEmail("qa-smoke-run@acme.com"), true);
+    assert.equal(isInternalSignupEmail("demo@example.com"), true);
+    assert.equal(isInternalSignupEmail("founder@acme.com"), false);
   });
 });
 

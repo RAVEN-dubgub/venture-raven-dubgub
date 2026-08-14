@@ -33,6 +33,23 @@ export function normalizeEmail(email: string) {
   return email.trim().toLowerCase();
 }
 
+/** Smoke / QA signups — excluded from external qualified_users gate (25) */
+export function isInternalSignupEmail(email: string) {
+  const normalized = normalizeEmail(email);
+  const localPart = normalized.split("@")[0] ?? "";
+  const domain = normalized.split("@")[1] ?? "";
+
+  if (domain === "example.com") {
+    return true;
+  }
+
+  if (localPart.startsWith("test+") || localPart.includes("smoke")) {
+    return true;
+  }
+
+  return false;
+}
+
 export function slugifyTeamName(name: string) {
   const base = name
     .trim()
