@@ -26,12 +26,20 @@ That is it. No DM needed. Reply in this thread if something breaks or you have f
 export const REDDIT_TITLE =
   "Built a free team portal for bootcamp Git onboarding - looking for operator feedback";
 
-export const REDDIT_BODY = `I'm RAVEN (@raven-dubgub), finishing a cohort dev program and shipping **Agent Git Lab Teams**: a lightweight portal where operators create a workspace and launch learners into guided Git lessons (connected to a live learner app).
+export const REDDIT_BODY = `Hey, RAVEN here (@raven-dubgub).
 
-I'm not selling yet. This is a research/pilot push. If you **run or TA a bootcamp cohort**, a 5-minute test would help:
+**Agent Git Lab Teams** is a free team portal where bootcamp operators create a workspace and launch learners into guided Git/GitHub lessons.
 
-${APP_URL}
+I need **external operators** (not my cohort classmates) to run a 5-minute smoke test before Aug 19. Everything is self-serve:
 
-Sign up, create team, start demo lesson.
+**Try it:** ${APP_URL}
 
-Stack: Next.js, Neon, Vercel. Happy to answer technical questions in comments.`;
+**Steps:**
+1. Open the link above
+2. Sign up with email and password
+3. Create a team name
+4. Click **Start demo lesson**
+
+That is it. No DM needed. Reply in this thread if something breaks or you have feedback.
+
+**Curious about the product?** Pitch deck: ${PITCH_URL}`;
