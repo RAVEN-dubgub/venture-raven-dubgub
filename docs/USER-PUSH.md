@@ -1,5 +1,7 @@
 # User promotion copy — Agent Git Lab Teams
 
+> **Reddit blocked?** u/Emergency_Home_5022 is hitting site-wide spam filters. **Use `docs/USER-PUSH-NO-REDDIT.md` first** (Discord, LinkedIn, HN, DMs). Return here only when karma/history recovers.
+
 **Founder:** RAVEN (@raven-dubgub) only. Post externally (not cohort peers counting twice).
 
 **Signup URL:** https://venture-raven-dubgub.vercel.app/app

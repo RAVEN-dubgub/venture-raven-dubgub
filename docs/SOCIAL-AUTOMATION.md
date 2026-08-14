@@ -174,7 +174,7 @@ Target: `"qualified_users": 25` or higher before Wed Aug 19, 2026 17:00 ET.
 | Channel | Path |
 |---------|------|
 | Investor cold email | `docs/investor-emails/READY-TO-SEND.md` + Gmail (Joshua sends) |
-| LinkedIn | Copy from `docs/USER-PUSH.md` |
-| Twitter/X, Slack DMs | Copy from `docs/USER-PUSH.md` |
+| LinkedIn, HN, Indie Hackers, DMs | Copy from `docs/USER-PUSH-NO-REDDIT.md` (Reddit blocked — skip until karma) |
+| Twitter/X, Slack DMs | Copy from `docs/USER-PUSH-NO-REDDIT.md` |
 
 No Gmail OAuth or email API in this repo until Joshua sets that up separately.
