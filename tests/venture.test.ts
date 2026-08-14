@@ -20,6 +20,7 @@ describe("normalizeEmail", () => {
 describe("isInternalSignupEmail", () => {
   it("flags test+, smoke, and example.com signups", () => {
     assert.equal(isInternalSignupEmail("test+smoke@acme.com"), true);
+    assert.equal(isInternalSignupEmail("qa-bot+run-1@example.invalid"), true);
     assert.equal(isInternalSignupEmail("qa-smoke-run@acme.com"), true);
     assert.equal(isInternalSignupEmail("demo@example.com"), true);
     assert.equal(isInternalSignupEmail("founder@acme.com"), false);

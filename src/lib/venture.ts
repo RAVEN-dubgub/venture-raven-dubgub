@@ -43,7 +43,11 @@ export function isInternalSignupEmail(email: string) {
     return true;
   }
 
-  if (localPart.startsWith("test+") || localPart.includes("smoke")) {
+  if (
+    localPart.startsWith("test+") ||
+    localPart.startsWith("qa-bot+") ||
+    localPart.includes("smoke")
+  ) {
     return true;
   }
 
