@@ -33,7 +33,7 @@ REDDIT_CLIENT_ID="paste_client_id_here"
 REDDIT_CLIENT_SECRET="paste_secret_here"
 REDDIT_USERNAME="your_reddit_username"
 REDDIT_PASSWORD="your_reddit_password"
-REDDIT_SUBREDDIT="learnprogramming"
+REDDIT_SUBREDDIT="codingbootcamp"
 ```
 
 | Variable | What to paste |
@@ -42,7 +42,7 @@ REDDIT_SUBREDDIT="learnprogramming"
 | `REDDIT_CLIENT_SECRET` | Secret from step 6 |
 | `REDDIT_USERNAME` | Reddit login username (not display name) |
 | `REDDIT_PASSWORD` | Reddit account password |
-| `REDDIT_SUBREDDIT` | Target subreddit **without** `r/` (default: `learnprogramming`) |
+| `REDDIT_SUBREDDIT` | Target subreddit **without** `r/` (default: `codingbootcamp`) |
 
 **Optional:** After first successful auth, you may store `REDDIT_REFRESH_TOKEN` and remove `REDDIT_PASSWORD` from `.env`. The script supports either password or refresh token.
 
@@ -54,12 +54,13 @@ REDDIT_SUBREDDIT="learnprogramming"
 
 | Subreddit | Good for | Rules note |
 |-----------|----------|------------|
-| [r/learnprogramming](https://www.reddit.com/r/learnprogramming/) | Operators, TAs, self-taught devs | Read sidebar rules; many threads ban pure self-promo. Frame as feedback request, engage in comments. |
-| [r/codingbootcamp](https://www.reddit.com/r/codingbootcamp/) | Bootcamp operators and alumni | Check pinned rules and flair requirements before posting. |
+| [r/codingbootcamp](https://www.reddit.com/r/codingbootcamp/) | **Primary** — bootcamp operators and alumni | Student project + honest feedback OK if you disclose affiliation. One link. Reply in thread. |
+| [r/SideProject](https://www.reddit.com/r/SideProject/) | **Backup** — build-in-public / roast my UX | Story-first posts; engage every comment. Copy in `USER-PUSH.md`. |
+| [r/learnprogramming](https://www.reddit.com/r/learnprogramming/) | **Avoid** for this campaign | Aug 2026 post removed by AutoModerator. See `docs/REDDIT-POST-REMOVED.md`. Do not repost without mod approval. |
 
 Set `REDDIT_SUBREDDIT` to the subreddit name only (e.g. `codingbootcamp`).
 
-**One post per subreddit.** Do not spam. Reply honestly in comments.
+**One post per subreddit.** Do not cross-post identical copy. Reply honestly in comments.
 
 ---
 

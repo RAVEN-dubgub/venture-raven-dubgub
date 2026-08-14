@@ -22,7 +22,7 @@ Setup (about 5 minutes):
    REDDIT_CLIENT_SECRET="..."
    REDDIT_USERNAME="your_reddit_username"
    REDDIT_PASSWORD="your_reddit_password"
-   REDDIT_SUBREDDIT="learnprogramming"
+   REDDIT_SUBREDDIT="codingbootcamp"
 
 Optional: REDDIT_REFRESH_TOKEN instead of password after first auth.
 
@@ -35,7 +35,7 @@ export function getRedditConfig() {
   const username = process.env.REDDIT_USERNAME?.trim();
   const password = process.env.REDDIT_PASSWORD?.trim();
   const refreshToken = process.env.REDDIT_REFRESH_TOKEN?.trim();
-  const subreddit = (process.env.REDDIT_SUBREDDIT?.trim() || "learnprogramming").replace(/^r\//, "");
+  const subreddit = (process.env.REDDIT_SUBREDDIT?.trim() || "codingbootcamp").replace(/^r\//, "");
 
   const hasCreds = Boolean(clientId && clientSecret && username && (password || refreshToken));
   return { clientId, clientSecret, username, password, refreshToken, subreddit, hasCreds };
@@ -77,7 +77,7 @@ async function getAccessToken(config) {
 
 export async function postReddit({ dryRun = false, subreddit: subOverride } = {}) {
   const config = getRedditConfig();
-  const subreddit = (subOverride || config.subreddit || "learnprogramming").replace(/^r\//, "");
+  const subreddit = (subOverride || config.subreddit || "codingbootcamp").replace(/^r\//, "");
 
   if (!config.hasCreds) {
     if (dryRun) {

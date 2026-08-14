@@ -104,10 +104,10 @@ REDDIT_CLIENT_ID="your_client_id"
 REDDIT_CLIENT_SECRET="your_secret"
 REDDIT_USERNAME="your_reddit_username"
 REDDIT_PASSWORD="your_reddit_password"
-REDDIT_SUBREDDIT="learnprogramming"
+REDDIT_SUBREDDIT="codingbootcamp"
 ```
 
-`REDDIT_SUBREDDIT` defaults to `learnprogramming` if omitted. Use `codingbootcamp` for the alternate variant in `USER-PUSH.md`.
+`REDDIT_SUBREDDIT` defaults to `codingbootcamp` if omitted. Safer copy variants (SideProject, webdev) are in `USER-PUSH.md`. **Do not use r/learnprogramming** without reading `docs/REDDIT-POST-REMOVED.md`.
 
 Optional: after first successful auth, store `REDDIT_REFRESH_TOKEN` and remove password from `.env`.
 
@@ -151,7 +151,7 @@ Workflow: `.github/workflows/social-post.yml`
 | `REDDIT_CLIENT_SECRET` | Reddit post |
 | `REDDIT_USERNAME` | Reddit post |
 | `REDDIT_PASSWORD` or `REDDIT_REFRESH_TOKEN` | Reddit post |
-| `REDDIT_SUBREDDIT` | Optional (default `learnprogramming`) |
+| `REDDIT_SUBREDDIT` | Optional (default `codingbootcamp`) |
 
 Omit secrets for channels you do not want. The workflow skips missing channels like the local script.
 
