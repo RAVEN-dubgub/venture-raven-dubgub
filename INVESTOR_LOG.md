@@ -18,7 +18,7 @@ Build outreach list before cold emails. Fill firm, thesis fit, and warm intro pa
 
 | # | Name | Role / Firm | Focus (EdTech / DevTools / SaaS) | Warm intro? | Email sent? | Status |
 |---|------|-------------|-------------------------------------|-------------|-------------|--------|
-| 1 | [Partner TBD] | Partner | Reach Capital | EdTech / workforce learning | | | Prepared Aug 14 — pending send |
+| 1 | [Partner TBD] | Partner | Reach Capital | EdTech / workforce learning | | Yes | Email sent |
 | 2 | [Partner TBD] | Partner | GSV Ventures | EdTech / skills platforms | | | Draft ready |
 | 3 | [Partner TBD] | Partner | Owl Ventures | EdTech growth stage | | | Draft ready |
 | 4 | [Partner TBD] | Partner | Learn Capital | Learning + future of work | | | Draft ready |
@@ -45,7 +45,7 @@ Build outreach list before cold emails. Fill firm, thesis fit, and warm intro pa
 
 | Week | Emails sent | Replies | Calls booked | Deck links opened |
 |------|-------------|---------|--------------|-------------------|
-| Aug 11-17 | 0 | 0 | 0 | 0 |
+| Aug 11-17 | 1 | 0 | 0 | 0 |
 | Aug 18-24 | 0 | 0 | 0 | 0 |
 
 Email template: `docs/investor-email.md`  
@@ -58,7 +58,7 @@ Deck: `docs/pitch-deck.pdf` or https://venture-raven-dubgub.vercel.app/pitch
 
 | Date | Contact | Role / Firm | Type | Outcome summary | Verified |
 |------|---------|-------------|------|-----------------|----------|
-| 2026-08-14 | Reach Capital (info inbox) | Partner / Reach Capital | email (prepared) | Draft #1 copied from READY-TO-SEND; Joshua sending manually from Gmail | Pending |
+| 2026-08-14 | Reach Capital (info inbox) | Partner / Reach Capital | email sent | To info@reachcapital.com — subject: "Agent Git Lab Teams - cohort Git onboarding (15 min?)" | Pending |
 | _Example: 2026-08-15_ | _J. Smith_ | _Angel, EdTech_ | _30-min video call_ | _Interested in Q4 pilot; requested deck_ | _Pending_ |
 
 ### Entry template (copy for new rows)
@@ -72,8 +72,8 @@ Deck: `docs/pitch-deck.pdf` or https://venture-raven-dubgub.vercel.app/pitch
 - Target list: **20 firms named** (partner names TBD on firm team pages)
 - Email templates: **5 variants** in `docs/investor-emails/`
 - Ready-to-send drafts: **20** in `docs/investor-emails/READY-TO-SEND.md`
-- Reach Capital (#1): **Prepared Aug 14 — pending send** (info@reachcapital.com; founder sends from Gmail)
-- Outreach sent: **0** (update Status to `Email sent` only after Send is clicked)
+- Reach Capital (#1): **Email sent Aug 14** (info@reachcapital.com)
+- Outreach sent: **1**
 - Qualified touchpoints logged: **0** (pass gate requires ≥1 verified entry)
 
 ## Next actions (founder)
