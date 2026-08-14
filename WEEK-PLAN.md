@@ -15,7 +15,7 @@
 - [x] Agent: PDFs re-exported (`npm run export:pdfs`)
 - [x] Agent: `docs/USER-PUSH.md`, `docs/INTERVIEW-SCRIPT.md`, investor email variants
 - [x] Agent: `INVESTOR_LOG.md` 20-firm target list (names only)
-- [ ] **Joshua:** Post LinkedIn + Discord + Reddit copy from `docs/USER-PUSH.md`
+- [ ] **Joshua:** Post LinkedIn + Discord + Reddit copy from `docs/USER-PUSH.md` (Reddit → **r/codingbootcamp**; r/learnprogramming removed — see `docs/REDDIT-POST-REMOVED.md`)
 - [ ] **Joshua:** Share `/app` with 3 external bootcamp contacts today
 
 ## Fri Aug 15 — Users + outreach

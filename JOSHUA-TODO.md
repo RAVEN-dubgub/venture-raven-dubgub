@@ -25,7 +25,7 @@ Everything below requires Joshua. Agents cannot fabricate users, interviews, or 
 
 ### Users (≥25 qualified) — START TODAY
 
-1. Copy-paste posts from `docs/USER-PUSH.md` (LinkedIn, Discord, Reddit)
+1. Copy-paste posts from `docs/USER-PUSH.md` (LinkedIn, Discord, Reddit). Reddit: **r/codingbootcamp** primary copy only — do not repost to r/learnprogramming (`docs/REDDIT-POST-REMOVED.md`).
 2. Share https://venture-raven-dubgub.vercel.app/app with external bootcamp contacts
 3. Confirm each user: signup → create team → demo lesson started
 4. Before submission, capture metrics JSON from `GET /api/metrics` with `qualified_users` ≥25

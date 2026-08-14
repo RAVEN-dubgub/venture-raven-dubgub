@@ -1,6 +1,6 @@
 # Reddit setup (Joshua, ~5 minutes)
 
-Automated posts for **Agent Git Lab Teams** via `npm run post:reddit`. Copy matches Discord: self-serve steps, no DM needed, RAVEN only.
+Automated posts for **Agent Git Lab Teams** via `npm run post:reddit`. Uses the safer **r/codingbootcamp** copy from `docs/USER-PUSH.md` (not the Discord block). Default target: `codingbootcamp`. Do not use r/learnprogramming — see `docs/REDDIT-POST-REMOVED.md`.
 
 **Signup URL:** https://venture-raven-dubgub.vercel.app/app
 
