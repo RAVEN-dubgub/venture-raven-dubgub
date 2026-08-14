@@ -4,7 +4,30 @@ export const QUALIFIED_EVENT_TYPES = [
   "DEMO_LESSON_STARTED",
 ] as const;
 
+/** Smoke / founder test teams — excluded from external qualified_users gate */
+export const INTERNAL_TEAM_SLUGS = [
+  "metrics-smoke-team",
+  "test-boot",
+] as const;
+
 export type QualifiedEventType = (typeof QUALIFIED_EVENT_TYPES)[number];
+
+export function isInternalTeamSlug(slug: string) {
+  return (INTERNAL_TEAM_SLUGS as readonly string[]).includes(slug);
+}
+
+export function parseInternalEmailsFromEnv(value: string | undefined) {
+  if (!value?.trim()) {
+    return new Set<string>();
+  }
+
+  return new Set(
+    value
+      .split(",")
+      .map((email) => normalizeEmail(email))
+      .filter((email) => email.length > 0),
+  );
+}
 
 export function normalizeEmail(email: string) {
   return email.trim().toLowerCase();
@@ -25,7 +48,7 @@ export function isQualifiedEventType(value: string): value is QualifiedEventType
   return (QUALIFIED_EVENT_TYPES as readonly string[]).includes(value);
 }
 
-export function countQualifiedUsers(
+export function collectQualifiedUserIds(
   rows: Array<{ userId: string; type: string }>,
 ) {
   const qualified = new Set<string>();
@@ -36,7 +59,31 @@ export function countQualifiedUsers(
     }
   }
 
-  return qualified.size;
+  return qualified;
+}
+
+export function countQualifiedUsers(
+  rows: Array<{ userId: string; type: string }>,
+) {
+  return collectQualifiedUserIds(rows).size;
+}
+
+export function splitQualifiedUsers(
+  qualifiedUserIds: Set<string>,
+  internalUserIds: Set<string>,
+) {
+  let external = 0;
+  let internal = 0;
+
+  for (const userId of qualifiedUserIds) {
+    if (internalUserIds.has(userId)) {
+      internal += 1;
+    } else {
+      external += 1;
+    }
+  }
+
+  return { external, internal };
 }
 
 export const PRODUCTION_URL =
