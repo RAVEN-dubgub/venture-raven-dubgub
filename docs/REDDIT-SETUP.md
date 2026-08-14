@@ -99,7 +99,8 @@ npm run post:social
 |---------|-----|
 | `Reddit OAuth failed (401)` | Wrong username/password, or 2FA enabled (use app password or refresh token flow) |
 | Submit errors / rate limit | New or low-karma account; wait and try manually, or comment in existing threads |
-| Subreddit removed post | Re-read subreddit rules; adjust title or ask mods |
+| Subreddit removed post / post not in feed | See `docs/REDDIT-TROUBLESHOOTING.md`; try megathread comment or text post with link in first comment |
+| Low karma / new account | Use `USER-PUSH.md` → LOW KARMA section; build comment karma before standalone posts |
 | `ENOENT` on npm | Run commands from `venture-raven-dubgub`, not workspace root |
 
 More detail: `docs/SOCIAL-AUTOMATION.md`

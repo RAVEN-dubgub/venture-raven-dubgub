@@ -76,3 +76,16 @@ Ready-to-paste safer titles and bodies: **`docs/USER-PUSH.md`** → Reddit secti
 `REDDIT_SUBREDDIT` default is now **`codingbootcamp`**, not `learnprogramming`. Reddit script copy matches the safer r/codingbootcamp variant in `USER-PUSH.md`.
 
 See also: `docs/REDDIT-SETUP.md`, `docs/SOCIAL-AUTOMATION.md`.
+
+---
+
+## Update — r/SideProject post not staying (Aug 14, 2026)
+
+**Symptom:** Submit looks successful; post does not appear in r/SideProject `/new` feed (or vanishes quickly).
+
+**Likely cause for u/Emergency_Home_5022:** Site-wide spam filter and/or Crowd Control on a **low-karma account with a URL in the post**, not necessarily a mod manually banning the project. r/SideProject also routes many share posts into a pinned megathread (e.g. **"Share your Not-AI projects"**) — standalone posts from new accounts are filtered more often than **comments in that thread**.
+
+**Do not** repost the same standalone text immediately.
+
+**Full playbook:** `docs/REDDIT-TROUBLESHOOTING.md`  
+**Copy-paste low-karma variants:** `docs/USER-PUSH.md` → section **LOW KARMA / POST NOT STAYING**

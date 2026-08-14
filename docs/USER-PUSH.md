@@ -10,6 +10,78 @@
 
 ---
 
+## LOW KARMA / POST NOT STAYING (read first)
+
+**Account:** u/Emergency_Home_5022 · **If the post vanishes from the sub feed:** see `docs/REDDIT-TROUBLESHOOTING.md`
+
+**Do RIGHT NOW on r/SideProject (do not submit another standalone post yet if the last one disappeared):**
+
+1. Scroll to the pinned/highlight thread **"Share your Not-AI projects"** (or similar megathread on the sub home).
+2. **Comment** there (not a new post) — paste **Megathread comment** below.
+3. Verify in **incognito**: your comment visible on that thread?
+4. If standalone posts keep failing: use **Text post — no URL in body** variant; put link in **first comment** only.
+5. **Discord is still fastest** for operator smoke tests while Reddit karma builds.
+
+**Rules for filtered accounts:** Text post only · zero URLs in title · max one link · no pitch deck · no cohort/deadline language · no delete-and-repost same day · comment on 3 other SideProject posts before trying standalone again.
+
+### Megathread comment — r/SideProject (paste in pinned thread)
+
+```
+Solo student project: thin team portal for bootcamp Git onboarding.
+
+Problem I kept seeing: operators rebuild the same first-week Git/GitHub workflow every cohort (workspace, lesson links, hand-holding).
+
+Built: operator signs up → creates workspace → launches learners into a demo Git lesson. Next.js, Prisma, Neon, Vercel. Free, rough UI.
+
+Stuck on: whether the first-run flow is obvious to a non-technical program manager.
+
+Live demo: https://venture-raven-dubgub.vercel.app/app
+
+Would love roast-level feedback:
+1) First 60 seconds — confused or clear?
+2) Missing screen you'd expect?
+3) What would make this feel too "student demo" to trust?
+
+I'll reply to every comment.
+```
+
+### Standalone text post — NO URL in body (link in first comment)
+
+**Title:** Bootcamp Git onboarding portal (solo student build) — does this flow make sense?
+
+**Body:**
+
+```
+I'm a solo student builder working on operator tooling for bootcamp cohorts.
+
+Problem: a lot of programs duct-tape Slack, spreadsheets, and LMS tabs for first-week Git/GitHub onboarding.
+
+What I built: a small web app where an operator creates a workspace and launches learners into a guided demo lesson. Stack is Next.js, Prisma, Neon, JWT cookies, Vercel.
+
+Where I'm stuck: I'm not sure the first visit is obvious enough for a non-technical program manager.
+
+I'd love blunt UX feedback in the comments:
+1. First 60 seconds — confused or clear?
+2. Missing tab or screen you'd expect?
+3. Anything that feels too "student demo" to trust?
+
+I'll post the live demo link in my first comment so this stays readable as a discussion post.
+```
+
+**First comment (post immediately after submit):**
+
+```
+Live demo (free, no paywall): https://venture-raven-dubgub.vercel.app/app
+
+Steps if you try it: sign up → create team → Start demo lesson. Happy to answer stack questions here.
+```
+
+### If SideProject keeps failing → r/codingbootcamp later
+
+Wait until the account has more comment karma and sub history (see troubleshooting doc). r/codingbootcamp has **stricter** filters for accounts under ~3 months — not a good same-day fallback for a cold account.
+
+---
+
 ## LinkedIn (copy-paste)
 
 Building in public: I shipped **Agent Git Lab Teams**, a team portal for bootcamp operators who need Git/GitHub onboarding without rebuilding PM, comms, and learning tooling from scratch.
