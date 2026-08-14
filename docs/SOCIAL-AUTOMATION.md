@@ -85,6 +85,7 @@ npm run post:discord
 - Webhooks post as the webhook name/avatar you set in Discord.
 - One webhook = one channel. Create another webhook for a second server.
 - Do not commit the webhook URL (treat it like a password).
+- **If the webhook URL leaks:** Regenerating is optional unless you see abuse. Discord has no API to rotate webhooks without a bot token. To regenerate: Server Settings → Integrations → Webhooks → edit your webhook → **Regenerate**, then update `DISCORD_WEBHOOK_URL` in `.env`. Skip this if the URL is only in your local `.env` and you accept the risk.
 
 ---
 

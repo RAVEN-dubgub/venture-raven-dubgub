@@ -3,17 +3,25 @@
  */
 export const APP_URL = "https://venture-raven-dubgub.vercel.app/app";
 
-export const DISCORD_MESSAGE = `Hey, RAVEN here (@raven-dubgub). I built a small **team onboarding portal** for cohort programs: workspace setup, learner launch links, and metrics for Git/GitHub fluency paths.
+export const PITCH_URL = "https://venture-raven-dubgub.vercel.app/pitch";
 
-Looking for **external operators** (not my cohort classmates) to try a 5-minute smoke test before my Aug 19 deadline:
+export const DISCORD_MESSAGE = `Hey, RAVEN here (@raven-dubgub).
 
-**${APP_URL}**
+**Agent Git Lab Teams** is a free team portal where bootcamp operators create a workspace and launch learners into guided Git/GitHub lessons.
 
-1. Sign up
-2. Create a team
-3. Start the demo lesson
+I need **external operators** (not my cohort classmates) to run a 5-minute smoke test before Aug 19. Everything is self-serve:
 
-Reply here or DM if anything breaks. Honest feedback helps more than praise.`;
+**Try it:** ${APP_URL}
+
+**Steps:**
+1. Open the link above
+2. Sign up with email and password
+3. Create a team name
+4. Click **Start demo lesson**
+
+That is it. No DM needed. Reply in this thread if something breaks or you have feedback.
+
+**Curious about the product?** Pitch deck: ${PITCH_URL}`;
 
 export const REDDIT_TITLE =
   "Built a free team portal for bootcamp Git onboarding - looking for operator feedback";

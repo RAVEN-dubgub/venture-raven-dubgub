@@ -28,17 +28,23 @@ Built solo as part of the Hult Cohort Developer Program. Learner app: https://le
 
 ## Discord (bootcamp / dev communities)
 
-Hey — RAVEN here (@raven-dubgub). I built a small **team onboarding portal** for cohort programs: workspace setup, learner launch links, and metrics for Git/GitHub fluency paths.
+Hey, RAVEN here (@raven-dubgub).
 
-Looking for **external operators** (not my cohort classmates) to try a 5-minute smoke test before my Aug 19 deadline:
+**Agent Git Lab Teams** is a free team portal where bootcamp operators create a workspace and launch learners into guided Git/GitHub lessons.
 
-**https://venture-raven-dubgub.vercel.app/app**
+I need **external operators** (not my cohort classmates) to run a 5-minute smoke test before Aug 19. Everything is self-serve:
 
-1. Sign up
-2. Create a team
-3. Start the demo lesson
+**Try it:** https://venture-raven-dubgub.vercel.app/app
 
-Reply here or DM if anything breaks — honest feedback helps more than praise.
+**Steps:**
+1. Open the link above
+2. Sign up with email and password
+3. Create a team name
+4. Click **Start demo lesson**
+
+That is it. No DM needed. Reply in this thread if something breaks or you have feedback.
+
+**Curious about the product?** Pitch deck: https://venture-raven-dubgub.vercel.app/pitch
 
 ---
 
