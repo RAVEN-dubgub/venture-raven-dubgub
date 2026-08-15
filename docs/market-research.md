@@ -80,6 +80,14 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 
 
+**Public feedback form:** External operators can submit interview-style responses at **[https://venture-raven-dubgub.vercel.app/interviews](https://venture-raven-dubgub.vercel.app/interviews)** (also `/interviews` on the venture app). Submissions are stored in the production database and appear in the founder admin view at `/interviews/admin` (requires internal account — see `docs/METRICS-INTERNAL.md`).
+
+- Form responses **may** count toward the interview log after Joshua validates contact, role segment, and external status.
+- Do **not** auto-mark slots complete — copy validated quotes into the slots below and set status to **COMPLETE** manually.
+- Empty until real external submissions — no synthetic or placeholder data.
+
+
+
 | # | Status | Date | Role / segment | Contact | Notes file |
 
 |---|--------|------|----------------|---------|------------|
@@ -286,8 +294,12 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 
 1. Schedule 5 external calls using the script above (bootcamp directors, TAs, DevRel, indie operators)
 
-2. Fill dated notes in each slot within 48 hours of each call
+2. Share the public form after calls: https://venture-raven-dubgub.vercel.app/interviews
 
-3. Update this file and reference key quotes in `docs/business-plan.md` if they change assumptions
+3. Review submissions at `/interviews/admin` or `GET /api/interviews` (founder auth)
+
+4. Fill dated notes in each slot within 48 hours of each call
+
+5. Update this file and reference key quotes in `docs/business-plan.md` if they change assumptions
 
 

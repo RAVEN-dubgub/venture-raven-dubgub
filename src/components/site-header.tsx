@@ -7,6 +7,7 @@ import { LEARNING_APP_URL, SITE_NAME } from "@/lib/venture";
 
 const links = [
   { href: "/app", label: "Product" },
+  { href: "/interviews", label: "Interviews" },
   { href: "/plan", label: "Business plan" },
   { href: "/pitch", label: "Pitch deck" },
   { href: "/privacy", label: "Privacy" },

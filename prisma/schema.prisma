@@ -52,3 +52,31 @@ model ProductEvent {
   @@index([userId, type])
   @@index([createdAt])
 }
+
+model InterviewSubmission {
+  id                 String   @id @default(cuid())
+  createdAt          DateTime @default(now())
+  roleSegment        String
+  organization       String?
+  cohortSize         String?
+  experienceLevel    String?
+  onboardingProcess  String
+  painPoints         String
+  currentTools       String
+  progressSignals    String
+  idealOutcome       String
+  pricingFeedback    String
+  switchingCost      String
+  productFeedback    String?
+  followUpOk         Boolean  @default(false)
+  introsOffered      String?
+  willingnessToPilot String
+  notableQuote       String?
+  insight            String?
+  contactName        String?
+  contactEmail       String?
+  consentGiven       Boolean
+
+  @@index([createdAt])
+  @@index([roleSegment])
+}
