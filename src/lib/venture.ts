@@ -4,7 +4,7 @@ export const QUALIFIED_EVENT_TYPES = [
   "DEMO_LESSON_STARTED",
 ] as const;
 
-/** Smoke / founder test teams — excluded from external qualified_users gate */
+/** Smoke / founder test teams, excluded from external qualified_users gate */
 export const INTERNAL_TEAM_SLUGS = [
   "metrics-smoke-team",
   "test-boot",
@@ -33,7 +33,7 @@ export function normalizeEmail(email: string) {
   return email.trim().toLowerCase();
 }
 
-/** Smoke / QA signups — excluded from external qualified_users gate (25) */
+/** Smoke / QA signups, excluded from external qualified_users gate (25) */
 export function isInternalSignupEmail(email: string) {
   const normalized = normalizeEmail(email);
   const localPart = normalized.split("@")[0] ?? "";

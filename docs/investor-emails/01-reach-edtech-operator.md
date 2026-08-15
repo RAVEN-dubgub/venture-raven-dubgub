@@ -1,11 +1,11 @@
-# Variant 1 — EdTech operator fund (Reach Capital thesis)
+# Variant 1: EdTech operator fund (Reach Capital thesis)
 
 **Target profile:** Pre-seed EdTech SaaS for workforce and bootcamp operators  
 **Personalize:** Partner name, recent portfolio company in workforce/cohort space
 
 ---
 
-Subject: Agent Git Lab Teams — cohort Git onboarding (15 min?)
+Subject: Agent Git Lab Teams, cohort Git onboarding (15 min?)
 
 Hi {{Name}},
 

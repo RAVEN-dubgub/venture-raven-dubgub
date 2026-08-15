@@ -80,11 +80,11 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 
 
-**Public feedback form:** External operators can submit interview-style responses at **[https://venture-raven-dubgub.vercel.app/interviews](https://venture-raven-dubgub.vercel.app/interviews)** (also `/interviews` on the venture app). Submissions are stored in the production database and appear in the founder admin view at `/interviews/admin` (requires internal account — see `docs/METRICS-INTERNAL.md`).
+**Public feedback form:** External operators can submit interview-style responses at **[https://venture-raven-dubgub.vercel.app/interviews](https://venture-raven-dubgub.vercel.app/interviews)** (also `/interviews` on the venture app). Submissions are stored in the production database and appear in the founder admin view at `/interviews/admin` (requires internal account: see `docs/METRICS-INTERNAL.md`).
 
 - Form responses **may** count toward the interview log after Joshua validates contact, role segment, and external status.
-- Do **not** auto-mark slots complete — copy validated quotes into the slots below and set status to **COMPLETE** manually.
-- Empty until real external submissions — no synthetic or placeholder data.
+- Do **not** auto-mark slots complete: copy validated quotes into the slots below and set status to **COMPLETE** manually.
+- Empty until real external submissions: no synthetic or placeholder data.
 
 
 

@@ -1,11 +1,11 @@
-# Variant 2 — DevTools / infra seed VC (Heavybit / Unusual thesis)
+# Variant 2: DevTools / infra seed VC (Heavybit / Unusual thesis)
 
 **Target profile:** Developer tools, PLG SaaS, infra for engineering teams  
 **Personalize:** Reference a portfolio dev-ed or devtools company
 
 ---
 
-Subject: DevTools for cohort Git onboarding — quick intro?
+Subject: DevTools for cohort Git onboarding, quick intro?
 
 Hi {{Name}},
 

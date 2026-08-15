@@ -1,4 +1,4 @@
-# Customer interview script — Agent Git Lab Teams
+# Customer interview script: Agent Git Lab Teams
 
 **Founder:** RAVEN (@raven-dubgub)  
 **Duration:** 15 minutes  
@@ -42,7 +42,7 @@ Cohort peers do **not** count as external validation.
 6. **Price anchor:** Would $49/month per cohort (up to 30 seats) feel reasonable for a pilot?
 7. **Switching cost:** What would make you switch from your current stack?
 
-**Probe:** "Who signs off on a tool like this — you, director, finance?"
+**Probe:** "Who signs off on a tool like this, you, director, finance?"
 
 ---
 
@@ -51,7 +51,7 @@ Cohort peers do **not** count as external validation.
 8. **Follow-up:** Can I send a pilot link when ready?
 9. **Intros:** Do you know one other operator I should talk to?
 
-> "Thank you — this directly shapes what I ship next week."
+> "Thank you. this directly shapes what I ship next week."
 
 ---
 

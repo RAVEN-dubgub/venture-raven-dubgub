@@ -1,6 +1,6 @@
 # Reddit setup (Joshua, ~5 minutes)
 
-Automated posts for **Agent Git Lab Teams** via `npm run post:reddit`. Uses the safer **r/codingbootcamp** copy from `docs/USER-PUSH.md` (not the Discord block). Default target: `codingbootcamp`. Do not use r/learnprogramming — see `docs/REDDIT-POST-REMOVED.md`.
+Automated posts for **Agent Git Lab Teams** via `npm run post:reddit`. Uses the safer **r/codingbootcamp** copy from `docs/USER-PUSH.md` (not the Discord block). Default target: `codingbootcamp`. Do not use r/learnprogramming, see `docs/REDDIT-POST-REMOVED.md`.
 
 **Signup URL:** https://venture-raven-dubgub.vercel.app/app
 
@@ -54,8 +54,8 @@ REDDIT_SUBREDDIT="codingbootcamp"
 
 | Subreddit | Good for | Rules note |
 |-----------|----------|------------|
-| [r/codingbootcamp](https://www.reddit.com/r/codingbootcamp/) | **Primary** — bootcamp operators and alumni | Student project + honest feedback OK if you disclose affiliation. One link. Reply in thread. |
-| [r/SideProject](https://www.reddit.com/r/SideProject/) | **Backup** — build-in-public / roast my UX | Story-first posts; engage every comment. Copy in `USER-PUSH.md`. |
+| [r/codingbootcamp](https://www.reddit.com/r/codingbootcamp/) | **Primary**, bootcamp operators and alumni | Student project + honest feedback OK if you disclose affiliation. One link. Reply in thread. |
+| [r/SideProject](https://www.reddit.com/r/SideProject/) | **Backup**, build-in-public / roast my UX | Story-first posts; engage every comment. Copy in `USER-PUSH.md`. |
 | [r/learnprogramming](https://www.reddit.com/r/learnprogramming/) | **Avoid** for this campaign | Aug 2026 post removed by AutoModerator. See `docs/REDDIT-POST-REMOVED.md`. Do not repost without mod approval. |
 
 Set `REDDIT_SUBREDDIT` to the subreddit name only (e.g. `codingbootcamp`).

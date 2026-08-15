@@ -58,7 +58,7 @@ Deck: `docs/pitch-deck.pdf` or https://venture-raven-dubgub.vercel.app/pitch
 
 | Date | Contact | Role / Firm | Type | Outcome summary | Verified |
 |------|---------|-------------|------|-----------------|----------|
-| 2026-08-14 | Reach Capital (info inbox) | Partner / Reach Capital | email sent | To info@reachcapital.com — subject: "Agent Git Lab Teams - cohort Git onboarding (15 min?)" | Pending |
+| 2026-08-14 | Reach Capital (info inbox) | Partner / Reach Capital | email sent | To info@reachcapital.com, subject: "Agent Git Lab Teams - cohort Git onboarding (15 min?)" | Pending |
 | _Example: 2026-08-15_ | _J. Smith_ | _Angel, EdTech_ | _30-min video call_ | _Interested in Q4 pilot; requested deck_ | _Pending_ |
 
 ### Entry template (copy for new rows)

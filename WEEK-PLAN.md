@@ -1,4 +1,4 @@
-# Week plan — Phase 2 Venture (Aug 14–19, 2026)
+# Week plan: Phase 2 Venture (Aug 14-19, 2026)
 
 **Founder:** RAVEN (@raven-dubgub)  
 **Deadline:** Wed Aug 19, 2026, 17:00 Eastern Time  
@@ -8,44 +8,44 @@
 
 ---
 
-## Thu Aug 14 — Promotion day
+## Thu Aug 14: Promotion day
 
 - [x] Agent: venture test/build/lint pass
 - [x] Agent: learning ESLint fixes, build pass
 - [x] Agent: PDFs re-exported (`npm run export:pdfs`)
 - [x] Agent: `docs/USER-PUSH.md`, `docs/INTERVIEW-SCRIPT.md`, investor email variants
 - [x] Agent: `INVESTOR_LOG.md` 20-firm target list (names only)
-- [ ] **Joshua:** Post LinkedIn + Discord + Reddit copy from `docs/USER-PUSH.md` (Reddit → **r/codingbootcamp**; r/learnprogramming removed — see `docs/REDDIT-POST-REMOVED.md`)
+- [ ] **Joshua:** Post LinkedIn + Discord + Reddit copy from `docs/USER-PUSH.md` (Reddit → **r/codingbootcamp**; r/learnprogramming removed: see `docs/REDDIT-POST-REMOVED.md`)
 - [ ] **Joshua:** Share `/app` with 3 external bootcamp contacts today
 
-## Fri Aug 15 — Users + outreach
+## Fri Aug 15: Users + outreach
 
 - [ ] **Joshua:** Check metrics (`qualified_users` progress toward 25)
 - [ ] **Joshua:** Schedule customer interview #1 (bootcamp director)
-- [ ] **Joshua:** Send investor emails #1–#2 from `docs/investor-emails/`
+- [ ] **Joshua:** Send investor emails #1-#2 from `docs/investor-emails/`
 - [ ] **Joshua:** Fill partner names in `INVESTOR_LOG.md` for top 5 targets
 
-## Sat Aug 16 — Interviews
+## Sat Aug 16: Interviews
 
 - [ ] **Joshua:** Complete customer interview #1, notes in `docs/market-research.md`
-- [ ] **Joshua:** Schedule interviews #2–#3
-- [ ] **Joshua:** Send investor emails #3–#5
+- [ ] **Joshua:** Schedule interviews #2-#3
+- [ ] **Joshua:** Send investor emails #3-#5
 - [ ] **Joshua:** Follow up on user promotion posts
 
-## Sun Aug 17 — Buffer + metrics
+## Sun Aug 17: Buffer + metrics
 
-- [ ] **Joshua:** Customer interviews #2–#3 (if scheduled)
+- [ ] **Joshua:** Customer interviews #2-#3 (if scheduled)
 - [ ] **Joshua:** Re-check venture metrics snapshot
 - [ ] **Joshua:** Log any investor replies in `INVESTOR_LOG.md` touch log
 
-## Mon Aug 18 — Final push
+## Mon Aug 18: Final push
 
-- [ ] **Joshua:** Customer interviews #4–#5
+- [ ] **Joshua:** Customer interviews #4-#5
 - [ ] **Joshua:** Hit ≥25 `qualified_users` or escalate promotion
 - [ ] **Joshua:** Capture final metrics JSON for PR #290 body
 - [ ] **Joshua:** Verify ≥1 investor touch logged (real reply only)
 
-## Tue Aug 19 — Submit (17:00 ET)
+## Tue Aug 19: Submit (17:00 ET)
 
 - [ ] **Joshua:** Final smoke: `/`, `/app`, `/pitch`, `/api/metrics`
 - [ ] **Joshua:** Update PR #290 with final metrics snapshot

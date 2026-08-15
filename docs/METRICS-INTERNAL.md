@@ -1,23 +1,23 @@
 # Metrics: internal vs external qualified users
 
-The venture submission gate counts **`qualified_users`** only — external signups who completed a qualified action (`TEAM_CREATED` or `DEMO_LESSON_STARTED`). Smoke tests and founder QA accounts must not inflate that number.
+The venture submission gate counts **`qualified_users`** only; external signups who completed a qualified action (`TEAM_CREATED` or `DEMO_LESSON_STARTED`). Smoke tests and founder QA accounts must not inflate that number.
 
 ## API fields
 
 | Field | Meaning |
 |-------|---------|
-| `qualified_users` | External qualified users — **this is the 25 gate** |
+| `qualified_users` | External qualified users, **this is the 25 gate** |
 | `qualified_users_internal` | Internal / smoke qualified users |
 | `qualified_users_total` | All qualified users (external + internal) |
 
 ## How users become internal
 
 1. **`User.isInternal = true`** in Neon (preferred, persisted)
-2. **Signup auto-mark** — email matches:
+2. **Signup auto-mark**: email matches:
    - local part starts with `test+`
    - local part contains `smoke`
    - domain is `@example.com`
-3. **Fallback (pre-migration / belt-and-suspenders)** — owner of team slugs `metrics-smoke-team`, `test-boot`, or `METRICS_INTERNAL_EMAILS` env list
+3. **Fallback (pre-migration / belt-and-suspenders)**: owner of team slugs `metrics-smoke-team`, `test-boot`, or `METRICS_INTERNAL_EMAILS` env list
 
 ## Deploy: run migration on Neon
 

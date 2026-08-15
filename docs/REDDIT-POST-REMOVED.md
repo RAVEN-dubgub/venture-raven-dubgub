@@ -1,4 +1,4 @@
-# Reddit post removed — r/learnprogramming (Aug 14, 2026)
+# Reddit post removed: r/learnprogramming (Aug 14, 2026)
 
 **Account:** u/Emergency_Home_5022 (display: RAVEN)  
 **Subreddit:** r/learnprogramming  
@@ -44,18 +44,18 @@ The **"going private"** snippet in the removal message likely refers to r/learnp
 | r/edtech | Optional | Niche audience; check rules before posting. |
 | **r/learnprogramming** | **Avoid for this campaign** | Unless mods pre-approve or a designated feedback thread exists |
 
-**Discord remains valid** — bootcamp/dev server threads are the right channel for the original copy (`docs/USER-PUSH.md` Discord section). No subreddit AutoMod, same self-serve steps, reply in thread.
+**Discord remains valid**: bootcamp/dev server threads are the right channel for the original copy (`docs/USER-PUSH.md` Discord section). No subreddit AutoMod, same self-serve steps, reply in thread.
 
 ---
 
 ## Safer posting rules (all subreddits)
 
-1. **One post per subreddit** — never cross-post identical text the same day.
-2. **One link in the body** — app URL only; share pitch deck only if someone asks in comments.
-3. **No "DM me"** — ask people to reply **in the public thread**.
-4. **No cohort / peer-review language** — do not mention classmates, external operators, or submission deadlines in the post body.
-5. **Lead with problem + what you learned** — not "try my product."
-6. **Engage in comments** for at least 1–2 hours after posting.
+1. **One post per subreddit**: never cross-post identical text the same day.
+2. **One link in the body**: app URL only; share pitch deck only if someone asks in comments.
+3. **No "DM me"**: ask people to reply **in the public thread**.
+4. **No cohort / peer-review language**: do not mention classmates, external operators, or submission deadlines in the post body.
+5. **Lead with problem + what you learned**: not "try my product."
+6. **Engage in comments** for at least 1-2 hours after posting.
 7. **Check flair requirements** before submit (especially r/codingbootcamp).
 
 Ready-to-paste safer titles and bodies: **`docs/USER-PUSH.md`** → Reddit section.
@@ -79,11 +79,11 @@ See also: `docs/REDDIT-SETUP.md`, `docs/SOCIAL-AUTOMATION.md`.
 
 ---
 
-## Update — r/SideProject post not staying (Aug 14, 2026)
+## Update: r/SideProject post not staying (Aug 14, 2026)
 
 **Symptom:** Submit looks successful; post does not appear in r/SideProject `/new` feed (or vanishes quickly).
 
-**Likely cause for u/Emergency_Home_5022:** Site-wide spam filter and/or Crowd Control on a **low-karma account with a URL in the post**, not necessarily a mod manually banning the project. r/SideProject also routes many share posts into a pinned megathread (e.g. **"Share your Not-AI projects"**) — standalone posts from new accounts are filtered more often than **comments in that thread**.
+**Likely cause for u/Emergency_Home_5022:** Site-wide spam filter and/or Crowd Control on a **low-karma account with a URL in the post**, not necessarily a mod manually banning the project. r/SideProject also routes many share posts into a pinned megathread (e.g. **"Share your Not-AI projects"**), standalone posts from new accounts are filtered more often than **comments in that thread**.
 
 **Do not** repost the same standalone text immediately.
 

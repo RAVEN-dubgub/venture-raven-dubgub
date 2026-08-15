@@ -2,7 +2,7 @@
 
 **Founder:** RAVEN (@raven-dubgub)  
 **As of:** Fri Aug 14, 2026 (evening)  
-**Sunday checkpoint:** Aug 16 — at least 5 qualified external users  
+**Sunday checkpoint:** Aug 16, at least 5 qualified external users  
 **Final deadline:** Wed Aug 19, 2026, 17:00 Eastern Time  
 
 This is a plain-language snapshot of what is done, what still needs Joshua, and what to do this weekend.
@@ -11,7 +11,7 @@ This is a plain-language snapshot of what is done, what still needs Joshua, and 
 
 ## 1. DONE
 
-### Product (agent completed Aug 13–14)
+### Product (agent completed Aug 13-14)
 
 - Production venture app live: https://venture-raven-dubgub.vercel.app
 - Signup, team creation, demo lesson, and metrics API all working
@@ -29,7 +29,7 @@ This is a plain-language snapshot of what is done, what still needs Joshua, and 
 
 - **LinkedIn personal post** published (build-in-public, link to `/app`)
 - **Discord posts** pasted in bootcamp/dev servers
-- **Reach Capital investor email sent** (Aug 14) to info@reachcapital.com — logged in `INVESTOR_LOG.md`
+- **Reach Capital investor email sent** (Aug 14) to info@reachcapital.com: logged in `INVESTOR_LOG.md`
 
 ### Gates partially cleared
 
@@ -82,13 +82,13 @@ Numbered actions with rough time estimates. Do in order unless an interview slot
    Direct link: https://venture-raven-dubgub.vercel.app/app  
    Goal: hit **5 qualified users by Sun Aug 16**.
 
-4. **Send investor emails #2–#5** (~45 min)  
+4. **Send investor emails #2-#5** (~45 min)  
    Personalize partner names from firm team pages. Use `docs/investor-emails/READY-TO-SEND.md`. Update `INVESTOR_LOG.md` status to `Email sent` after each send.
 
 5. **Schedule customer interview #1** (~15 min)  
    Target: bootcamp director or program lead. Use `docs/INTERVIEW-SCRIPT.md`.
 
-6. **Post to one more channel** (~20 min each, pick 1–2)  
+6. **Post to one more channel** (~20 min each, pick 1-2)  
    Hacker News Show HN, Indie Hackers, Dev.to, or Slack communities from `docs/USER-PUSH-NO-REDDIT.md`.
 
 7. **Sat Aug 16: complete interview #1 + notes** (~45 min call + 30 min writeup)  
@@ -130,7 +130,7 @@ Numbered actions with rough time estimates. Do in order unless an interview slot
 | **Interview script** | `docs/INTERVIEW-SCRIPT.md` |
 | **Market research + interview slots** | `docs/market-research.md` |
 | **Joshua checklist** | `JOSHUA-TODO.md` |
-| **Week plan Aug 14–19** | `WEEK-PLAN.md` |
+| **Week plan Aug 14-19** | `WEEK-PLAN.md` |
 
 ---
 

@@ -10,17 +10,17 @@ Everything below requires Joshua. Agents cannot fabricate users, interviews, or 
 
 ---
 
-## TODAY (Aug 14) — skip Reddit until karma
+## TODAY (Aug 14): skip Reddit until karma
 
 **Reddit is blocked** for u/Emergency_Home_5022 (site-wide spam filter). Do **not** repost to r/SideProject, r/codingbootcamp, or anywhere else today. Karma recovery: `docs/REDDIT-TROUBLESHOOTING.md`. **All copy without Reddit:** `docs/USER-PUSH-NO-REDDIT.md`.
 
-### Top 3 actions (next 30–60 min)
+### Top 3 actions (next 30-60 min)
 
-1. **Discord** — Paste post from `docs/USER-PUSH-NO-REDDIT.md` §1 (or `npm run post:discord`) in every bootcamp/dev server you are in.
-2. **LinkedIn personal post** — Paste §2 from `docs/USER-PUSH-NO-REDDIT.md` (#buildinpublic, link to `/app`).
-3. **5 LinkedIn DMs** — Send operator messages §6 to bootcamp PMs/TAs (external, not cohort peers).
+1. **Discord**: Paste post from `docs/USER-PUSH-NO-REDDIT.md` §1 (or `npm run post:discord`) in every bootcamp/dev server you are in.
+2. **LinkedIn personal post**: Paste §2 from `docs/USER-PUSH-NO-REDDIT.md` (#buildinpublic, link to `/app`).
+3. **5 LinkedIn DMs**: Send operator messages §6 to bootcamp PMs/TAs (external, not cohort peers).
 
-**Then:** Check metrics once tonight — `curl -s https://venture-raven-dubgub.vercel.app/api/metrics`
+**Then:** Check metrics once tonight, `curl -s https://venture-raven-dubgub.vercel.app/api/metrics`
 
 ---
 
@@ -38,7 +38,7 @@ Everything below requires Joshua. Agents cannot fabricate users, interviews, or 
 
 ## Checklist (Joshua)
 
-### Users (≥25 qualified) — NO REDDIT THIS WEEK
+### Users (≥25 qualified): NO REDDIT THIS WEEK
 
 1. Copy-paste from **`docs/USER-PUSH-NO-REDDIT.md`** (Discord, LinkedIn, HN, Indie Hackers, Dev.to, Slack, DMs). Reddit only when karma recovers.
 2. Share https://venture-raven-dubgub.vercel.app/app with external bootcamp contacts (not cohort classmates)
@@ -75,7 +75,7 @@ Everything below requires Joshua. Agents cannot fabricate users, interviews, or 
 
 ---
 
-## Already done (agent — Aug 13–14, 2026)
+## Already done (agent: Aug 13-14, 2026)
 
 - [x] Production app deployed
 - [x] Market research secondary analysis + interview script (`docs/INTERVIEW-SCRIPT.md`, `docs/market-research.md`)
@@ -83,11 +83,11 @@ Everything below requires Joshua. Agents cannot fabricate users, interviews, or 
 - [x] PDF exports regenerated
 - [x] Investor log: 20 firm names + 5 email variants (`docs/investor-emails/`)
 - [x] User promotion copy (`docs/USER-PUSH.md`)
-- [x] **No-Reddit push playbook** (`docs/USER-PUSH-NO-REDDIT.md`) — Aug 14
+- [x] **No-Reddit push playbook** (`docs/USER-PUSH-NO-REDDIT.md`): Aug 14
 - [x] Tests, build, lint passing (venture + learning)
 - [x] Learning ESLint 8 errors fixed
 - [x] Submission PR body draft updated (`hult-cohort-program/submissions/raven-dubgub-p2-venture.md`)
-- [x] WEEK-PLAN.md day-by-day Aug 14–19
+- [x] WEEK-PLAN.md day-by-day Aug 14-19
 - [x] PR #290 and #283 status comments posted
 
 ---

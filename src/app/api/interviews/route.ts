@@ -20,7 +20,7 @@ export async function POST(request: Request) {
       {
         id: submission.id,
         createdAt: submission.createdAt.toISOString(),
-        message: "Thank you — your responses were saved for RAVEN's research log.",
+        message: "Thank you. your responses were saved for RAVEN's research log.",
       },
       { status: 201 },
     );

@@ -1,11 +1,11 @@
-# Variant 4 — Workforce learning / bootcamp market (GSV / Learn Capital thesis)
+# Variant 4: Workforce learning / bootcamp market (GSV / Learn Capital thesis)
 
 **Target profile:** Workforce upskilling, bootcamp market, skills platforms  
 **Personalize:** Reference workforce or skills portfolio
 
 ---
 
-Subject: Bootcamp Git onboarding portal — pilot feedback?
+Subject: Bootcamp Git onboarding portal, pilot feedback?
 
 Hi {{Name}},
 

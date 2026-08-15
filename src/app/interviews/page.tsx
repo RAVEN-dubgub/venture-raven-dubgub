@@ -74,7 +74,7 @@ export default function InterviewsPage() {
           <h1 className="mt-2 text-3xl font-bold tracking-tight">Thank you</h1>
           <p className="mt-4 text-[var(--muted)]">
             Your interview-style responses were saved. RAVEN will review them for Phase 2 market
-            validation. This is research only — not a sales signup.
+            validation. This is research only, not a sales signup.
           </p>
           {submissionId ? (
             <p className="mt-3 font-mono text-sm text-[var(--muted)]">Reference: {submissionId}</p>
@@ -98,7 +98,7 @@ export default function InterviewsPage() {
       <h1 className="mt-2 text-3xl font-bold tracking-tight">Interview feedback form</h1>
       <p className="mt-3 text-[var(--muted)]">
         Share how you onboard learners to Git and GitHub today. RAVEN (@raven-dubgub) uses these
-        responses for Agent Git Lab Teams research — not a sales call. Fields mirror{" "}
+        responses for Agent Git Lab Teams research, not a sales call. Fields mirror{" "}
         <code className="rounded bg-[var(--accent-soft)] px-1.5 py-0.5 text-sm">
           docs/INTERVIEW-SCRIPT.md
         </code>
@@ -151,7 +151,7 @@ export default function InterviewsPage() {
               <input
                 id="cohortSize"
                 name="cohortSize"
-                placeholder="e.g. 20–50 seats"
+                placeholder="e.g. 20-50 seats"
                 className="input-field"
               />
             </div>
@@ -267,7 +267,7 @@ export default function InterviewsPage() {
               required
               rows={3}
               className="input-field min-h-[5rem] resize-y"
-              placeholder="Who signs off — you, director, finance?"
+              placeholder="Who signs off: you, director, finance?"
             />
           </div>
         </section>
@@ -316,7 +316,7 @@ export default function InterviewsPage() {
               name="introsOffered"
               rows={2}
               className="input-field min-h-[4rem] resize-y"
-              placeholder="Names or segments — no PII required."
+              placeholder="Names or segments, no PII required."
             />
           </div>
 
@@ -326,7 +326,7 @@ export default function InterviewsPage() {
               name="followUpOk"
               className="mt-1 h-4 w-4 rounded border-[var(--border)]"
             />
-            <span>Yes — RAVEN may follow up with a pilot link when ready.</span>
+            <span>Yes, RAVEN may follow up with a pilot link when ready.</span>
           </label>
 
           <div>

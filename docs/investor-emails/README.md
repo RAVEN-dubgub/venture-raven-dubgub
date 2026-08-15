@@ -1,4 +1,4 @@
-# Investor emails — MANUAL ONLY
+# Investor emails: MANUAL ONLY
 
 **Joshua sends from his own Gmail.** There is no Gmail OAuth, Gmail API, or automated send in this project until Joshua sets that up separately.
 

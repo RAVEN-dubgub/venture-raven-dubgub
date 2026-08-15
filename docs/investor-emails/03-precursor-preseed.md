@@ -1,4 +1,4 @@
-# Variant 3 — Pre-seed generalist (Precursor / Haystack thesis)
+# Variant 3: Pre-seed generalist (Precursor / Haystack thesis)
 
 **Target profile:** Solo founder, pre-product-market-fit, capital-efficient  
 **Personalize:** Mention solo build, agent-assisted workflow

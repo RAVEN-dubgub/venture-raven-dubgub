@@ -1,4 +1,4 @@
-# Reddit troubleshooting — posts that "don't stay"
+# Reddit troubleshooting: posts that "don't stay"
 
 **Account:** u/Emergency_Home_5022 (display: RAVEN)  
 **Product:** Agent Git Lab Teams  
@@ -17,7 +17,7 @@ Related: `docs/REDDIT-POST-REMOVED.md` (r/learnprogramming incident), `docs/USER
 |-------|----------------|----------------|-----------------------------------|
 | **Site-wide spam filter** | Post on your profile logged in; **gone in incognito** / not in `/new` | Reddit (`removed_by_category: reddit`) | New account + URL in post + promo-shaped title |
 | **AutoModerator** | Instant removal; sometimes a bot comment with reason | Subreddit AutoMod (`automod_filtered` / `automod_removed`) | Karma/age gate, banned words, link from low-karma account |
-| **Crowd Control** | Silent — post may look fine to you but invisible to others | Subreddit setting (often "higher than default") | Not subscribed, zero comment karma **in that sub**, low Contributor Quality Score |
+| **Crowd Control** | Silent, post may look fine to you but invisible to others | Subreddit setting (often "higher than default") | Not subscribed, zero comment karma **in that sub**, low Contributor Quality Score |
 | **Human mod** | "[removed by moderators]" or modmail | Moderator (`moderator`) | Wrong thread type, megathread-only promo, repeated same project, rule break |
 | **Wrong post type** | Submit succeeds but filtered faster | Any of above | **Link post** instead of **Text post**; multiple URLs; pitch deck in body |
 
@@ -25,26 +25,26 @@ Related: `docs/REDDIT-POST-REMOVED.md` (r/learnprogramming incident), `docs/USER
 
 ---
 
-## Account requirements — u/Emergency_Home_5022
+## Account requirements: u/Emergency_Home_5022
 
 Exact thresholds are **not published** per sub. Observed / reported gates (Aug 2026):
 
 | Subreddit | Approx. gate | Notes for this account |
 |-----------|--------------|------------------------|
-| **r/SideProject** | ~10–50 karma; some report ~50 before standalone posts stick | Self-promo allowed if product is live and you engage. Mods check **10% rule** (most activity should not be promo). Brand-new + link = filtered often. |
+| **r/SideProject** | ~10-50 karma; some report ~50 before standalone posts stick | Self-promo allowed if product is live and you engage. Mods check **10% rule** (most activity should not be promo). Brand-new + link = filtered often. |
 | **r/codingbootcamp** | **High** reputation filter + Crowd Control; mods **rarely override** accounts **< 3 months** with little sub history | Primary target in docs, but **worst choice for a cold account today**. Comment in sub first; wait for age + karma. |
-| **r/learnprogramming** | Strict AutoMod | **Do not repost** — see `REDDIT-POST-REMOVED.md`. |
+| **r/learnprogramming** | Strict AutoMod | **Do not repost**, see `REDDIT-POST-REMOVED.md`. |
 
 **Before any standalone promo post:**
 
 1. Check karma: profile → karma breakdown (post vs comment).
 2. Prefer **comment karma** from genuine replies in large subs (r/AskReddit, hobby subs) or **r/SideProject** threads on other people's projects.
-3. Subscribe to the target sub; leave 2–3 **non-promo** comments there before posting.
+3. Subscribe to the target sub; leave 2-3 **non-promo** comments there before posting.
 4. If `removed_by_category` is **`reddit`** (site filter): **stop posting links**; comment-only for several days.
 
 ---
 
-## Step-by-step — post that is more likely to stay
+## Step-by-step: post that is more likely to stay
 
 ### 1. Choose post shape
 
@@ -54,27 +54,27 @@ Exact thresholds are **not published** per sub. Observed / reported gates (Aug 2
 | **Zero URLs in title** | URL in title |
 | **Zero or one URL in body** | App + pitch deck + learner app (three links) |
 | Put link in **first comment** if body keeps getting filtered | Lead with "try my product" / "sign up" |
-| Reply in thread for 1–2 hours | "DM me" |
+| Reply in thread for 1-2 hours | "DM me" |
 | One subreddit per day | Cross-post same copy |
 
 ### 2. Diagnose after submit (60 seconds)
 
-1. Open `https://www.reddit.com/r/SideProject/new/` in **incognito** — is your post there?
+1. Open `https://www.reddit.com/r/SideProject/new/` in **incognito**, is your post there?
 2. If not: open your post URL in incognito → add `.json` → search for `removed_by_category`.
 3. Check for an **AutoModerator comment** on the post (only visible if not fully filtered).
 4. **Do not** delete and repost the same text immediately (spam signal).
 
-### 3. If filtered — escalation order
+### 3. If filtered: escalation order
 
-1. **Megathread comment** (r/SideProject) — see below. Lowest friction for new accounts.
-2. **Text post, no URL in body** — link only in first comment.
-3. **Modmail** — one short polite message; ask if standalone posts need minimum karma or megathread only.
-4. **Build karma 3–7 days** — then retry standalone post.
-5. **Discord / LinkedIn** — no karma gate; see `USER-PUSH.md`.
+1. **Megathread comment** (r/SideProject), see below. Lowest friction for new accounts.
+2. **Text post, no URL in body**: link only in first comment.
+3. **Modmail**: one short polite message; ask if standalone posts need minimum karma or megathread only.
+4. **Build karma 3-7 days**: then retry standalone post.
+5. **Discord / LinkedIn**: no karma gate; see `USER-PUSH.md`.
 
 ---
 
-## r/SideProject — megathread vs standalone
+## r/SideProject: megathread vs standalone
 
 The sub feed often shows a pinned/highlight thread like **"Share your Not-AI projects"** (wording may vary). That is intentional: the mod team routes many **show-and-tell** posts into **one thread** to reduce feed spam.
 
@@ -82,7 +82,7 @@ The sub feed often shows a pinned/highlight thread like **"Share your Not-AI pro
 |-----------|--------|
 | Pinned megathread visible on sub home | **Comment there first** with project summary + questions. Add live URL in the same comment or a reply (one link). |
 | No megathread / rules say standalone OK | Use **Text post** + minimal copy from `USER-PUSH.md` → Low karma section. |
-| Standalone post filtered twice | Stop standalone attempts for 1–2 weeks; megathread + comments only. |
+| Standalone post filtered twice | Stop standalone attempts for 1-2 weeks; megathread + comments only. |
 
 **r/SideProject rules pattern (observed):**
 
@@ -90,11 +90,11 @@ The sub feed often shows a pinned/highlight thread like **"Share your Not-AI pro
 - "Just an idea" posts removed.
 - Same project reposted in a short window → removed.
 - Engage every comment on your thread.
-- AI-wrapper-only projects discouraged — lead with **Git/bootcamp operator UX**, not "AI team portal."
+- AI-wrapper-only projects discouraged: lead with **Git/bootcamp operator UX**, not "AI team portal."
 
 ---
 
-## r/codingbootcamp — if SideProject fails
+## r/codingbootcamp: if SideProject fails
 
 Better **audience fit**, worse **account gate** for u/Emergency_Home_5022:
 
@@ -102,17 +102,17 @@ Better **audience fit**, worse **account gate** for u/Emergency_Home_5022:
 - Mods: new accounts **< 3 months** with little Reddit activity should **not expect** manual approval.
 - Rules: on-topic bootcamp content only; disclose affiliation; no affiliate/referral tone; authentic explanation of value.
 
-**Strategy:** Spend 1–2 weeks commenting in r/codingbootcamp threads (bootcamp choice, outcomes, instructor pain — no links). Then post **one** text thread with student-project framing and **one** app link. Require **flair** if the submit form asks — pick "Discussion" or closest match after reading sidebar.
+**Strategy:** Spend 1-2 weeks commenting in r/codingbootcamp threads (bootcamp choice, outcomes, instructor pain, no links). Then post **one** text thread with student-project framing and **one** app link. Require **flair** if the submit form asks, pick "Discussion" or closest match after reading sidebar.
 
 Until then, prefer **Discord** (see `USER-PUSH.md`) for operator smoke tests.
 
 ---
 
-## Safer minimal copy — low karma accounts
+## Safer minimal copy: low karma accounts
 
 Use these instead of the full `USER-PUSH.md` Reddit blocks when filters keep catching you.
 
-### A. Megathread comment (r/SideProject — preferred RIGHT NOW)
+### A. Megathread comment (r/SideProject: preferred RIGHT NOW)
 
 ```
 Solo student project: thin team portal for bootcamp Git onboarding.
@@ -126,16 +126,16 @@ Stuck on: whether the first-run flow is obvious to a non-technical program manag
 Live demo: https://venture-raven-dubgub.vercel.app/app
 
 Would love roast-level feedback:
-1) First 60 seconds — confused or clear?
+1) First 60 seconds: confused or clear?
 2) Missing screen you'd expect?
 3) What would make this feel too "student demo" to trust?
 
 I'll reply to every comment.
 ```
 
-### B. Standalone text post — NO URL in body (link in first comment)
+### B. Standalone text post: NO URL in body (link in first comment)
 
-**Title:** `Bootcamp Git onboarding portal (solo student build) — does this flow make sense?`
+**Title:** `Bootcamp Git onboarding portal (solo student build), does this flow make sense?`
 
 **Body:**
 
@@ -149,7 +149,7 @@ What I built: a small web app where an operator creates a workspace and launches
 Where I'm stuck: I'm not sure the first visit is obvious enough for a non-technical program manager.
 
 I'd love blunt UX feedback in the comments:
-1. First 60 seconds — confused or clear?
+1. First 60 seconds: confused or clear?
 2. Missing tab or screen you'd expect?
 3. Anything that feels too "student demo" to trust?
 
@@ -164,9 +164,9 @@ Live demo (free, no paywall): https://venture-raven-dubgub.vercel.app/app
 Steps if you try it: sign up → create team → Start demo lesson. Happy to answer stack questions here.
 ```
 
-### C. r/codingbootcamp — only after warm-up (text, one link)
+### C. r/codingbootcamp: only after warm-up (text, one link)
 
-**Title:** `Student project: bootcamp operator portal for Git onboarding — feedback from people who've TA'd?`
+**Title:** `Student project: bootcamp operator portal for Git onboarding, feedback from people who've TA'd?`
 
 **Body:** Use the primary block in `USER-PUSH.md` but **remove** "Hult developer cohort program" if it triggers academic filters; replace with "solo student builder." **One link only.** No pitch deck. No deadline. No "external operators."
 
@@ -182,7 +182,7 @@ Steps if you try it: sign up → create team → Start demo lesson. Happy to ans
 
 ---
 
-## Quick reference — removal diagnosis
+## Quick reference: removal diagnosis
 
 ```
 Can YOU see the post logged in?  → Yes
@@ -197,7 +197,7 @@ Pinned megathread on sub home     = Comment there, don't fight standalone yet
 
 ## After a post sticks
 
-- Stay in thread 1–2 hours; reply to every comment.
+- Stay in thread 1-2 hours; reply to every comment.
 - Pitch deck **only if asked** in replies.
 - Metrics: `curl -s https://venture-raven-dubgub.vercel.app/api/metrics`
 - Do not ask cohort peers to sign up twice.

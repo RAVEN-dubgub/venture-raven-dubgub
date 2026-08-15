@@ -8,7 +8,7 @@
 
 ## Call for testers (external operators)
 
-Bootcamp / academy operators: try a **5-minute smoke test** — https://venture-raven-dubgub.vercel.app/app (sign up → create team → **Start demo lesson**). Open an [issue](https://github.com/RAVEN-dubgub/venture-raven-dubgub/issues) with UX feedback. Built by RAVEN (@raven-dubgub). Cohort classmates: refer external operators instead of double-counting signups.
+Bootcamp / academy operators: try a **5-minute smoke test** at https://venture-raven-dubgub.vercel.app/app (sign up → create team → **Start demo lesson**). Open an [issue](https://github.com/RAVEN-dubgub/venture-raven-dubgub/issues) with UX feedback. Built by RAVEN (@raven-dubgub). Cohort classmates: refer external operators instead of double-counting signups.
 
 **Metrics endpoint:** https://venture-raven-dubgub.vercel.app/api/metrics
 

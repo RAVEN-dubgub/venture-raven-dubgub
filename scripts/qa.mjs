@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// QA smoke runner for venture-raven — loads APP_URL N times, reports pass/fail.
+// QA smoke runner for venture-raven - loads APP_URL N times, reports pass/fail.
 // Usage: APP_URL=https://... QA_MODE=true QA_DRY_RUN=false npm run qa -- --runs=25
 import puppeteer from 'puppeteer';
 
@@ -27,7 +27,7 @@ for (let i = 1; i <= RUNS; i++) {
   const ok = resp && resp.status() >= 200 && resp.status() < 400 && (!STRICT || problems.length === 0);
 
   if (ok) { passed++; console.log(`[qa] PASS  run ${i}/${RUNS}  HTTP ${resp.status()}`); }
-  else { console.log(`[qa] FAIL  run ${i}/${RUNS}  HTTP ${resp ? resp.status() : 'n/a'}` + (problems.length ? '  — ' + problems[0] : '')); }
+  else { console.log(`[qa] FAIL  run ${i}/${RUNS}  HTTP ${resp ? resp.status() : 'n/a'}` + (problems.length ? ' - ' + problems[0] : '')); }
   await page.close();
 }
 

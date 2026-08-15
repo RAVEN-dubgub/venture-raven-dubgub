@@ -32,8 +32,8 @@ npm looks for `package.json` in the **current working directory**. The Cursor wo
 
 | Location | Has `package.json`? |
 |----------|------------------------|
-| `C:\Users\wolfs\OneDrive\Documents\Cursor` | **No** — `npm run post:social` → `ENOENT` (missing `package.json`) |
-| `C:\Users\wolfs\OneDrive\Documents\Cursor\venture-raven-dubgub` | **Yes** — run all `npm run post:*` here |
+| `C:\Users\wolfs\OneDrive\Documents\Cursor` | **No**, `npm run post:social` → `ENOENT` (missing `package.json`) |
+| `C:\Users\wolfs\OneDrive\Documents\Cursor\venture-raven-dubgub` | **Yes**, run all `npm run post:*` here |
 
 **From workspace root** (`Documents\Cursor`):
 
@@ -174,7 +174,7 @@ Target: `"qualified_users": 25` or higher before Wed Aug 19, 2026 17:00 ET.
 | Channel | Path |
 |---------|------|
 | Investor cold email | `docs/investor-emails/READY-TO-SEND.md` + Gmail (Joshua sends) |
-| LinkedIn, HN, Indie Hackers, DMs | Copy from `docs/USER-PUSH-NO-REDDIT.md` (Reddit blocked — skip until karma) |
+| LinkedIn, HN, Indie Hackers, DMs | Copy from `docs/USER-PUSH-NO-REDDIT.md` (Reddit blocked; skip until karma) |
 | Twitter/X, Slack DMs | Copy from `docs/USER-PUSH-NO-REDDIT.md` |
 
 No Gmail OAuth or email API in this repo until Joshua sets that up separately.
