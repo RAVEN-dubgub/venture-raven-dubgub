@@ -162,13 +162,13 @@ Close (1 min)
 
 
 
-**Summary:** Week 1 GitHub Desktop GUI, week 2 CLI; 30-slide deck + 2-hour live session; clone starter repo. By day 3 half the class is googling "what is git." Pain: merge conflicts destroy learners, staging vs committing confusion, "why do I type git twice," wrong-branch pushes, not pulling, committing node_modules, Windows path issues. Tools: GitHub Classroom, Slack flood, Zoom screen share, manual repo checks. Progress: scroll commit history, good messages + branching by week 2 — but 25 students takes hours. Ideal: dashboard showing who's stuck, auto-detect mistakes (secrets, 500MB files), stuck signal if no push in 3 days. Pricing: $49/mo fine if saves 5+ hrs/week; hard pass if another tool to maintain. Switching: drop-dead simple one link + GitHub Classroom integration. Product feedback: consent checkbox too corporate, form too long — suggest conversational multi-step. Intros: knows 2 other bootcamp instructors.
+**Summary:** Week 1 GitHub Desktop GUI, week 2 CLI; 30-slide deck + 2-hour live session; clone starter repo. By day 3 half the class is googling "what is git." Pain: merge conflicts destroy learners, staging vs committing confusion, "why do I type git twice," wrong-branch pushes, not pulling, committing node_modules, Windows path issues. Tools: GitHub Classroom, Slack flood, Zoom screen share, manual repo checks. Progress: scroll commit history, good messages + branching by week 2, but 25 students takes hours. Ideal: dashboard showing who's stuck, auto-detect mistakes (secrets, 500MB files), stuck signal if no push in 3 days. Pricing: $49/mo fine if saves 5+ hrs/week; hard pass if another tool to maintain. Switching: drop-dead simple one link + GitHub Classroom integration. Product feedback: consent checkbox too corporate, form too long; suggest conversational multi-step. Intros: knows 2 other bootcamp instructors.
 
 
 
 - Quote: "Merge conflicts are where dreams go to die. If you can solve that, you've got my money."
 
-- Insight: Real problem validated, but form felt like a sales interview disguised as research — wants a product demo before pilot.
+- Insight: Real problem validated, but form felt like a sales interview disguised as research; wants a product demo before pilot.
 
 - Willingness to pilot (Y/N): **Maybe** (needs demo first)
 
