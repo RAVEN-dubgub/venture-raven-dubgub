@@ -2,7 +2,7 @@
 
 
 
-**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **4 / 5 COMPLETE** (gate open)
+**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **5 / 5 COMPLETE** (gate met)
 
 
 
@@ -100,7 +100,7 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 | 4 | **COMPLETE** | 2026-08-16 | Bootcamp director / program lead | Nia Torres · Launchline Academy · nia@launchline.dev | Slot 4 below |
 
-| 5 | **PENDING** | _YYYY-MM-DD_ | Internal academy lead | _Name / org_ | |
+| 5 | **COMPLETE** | 2026-08-16 | Indie program operator | Pavel Kim · Forgehouse Cohorts · pavel@forgehouse.io | Slot 5 below |
 
 
 
@@ -250,19 +250,23 @@ Close (1 min)
 
 
 
-**Date:** _PENDING_  
+**Date:** 2026-08-16  
 
-**Contact:** _PENDING_  
+**Contact:** Pavel Kim · pavel@forgehouse.io · consent yes · follow-up yes  
 
-**Role / org:** _PENDING_
+**Role / org:** Indie program operator · Forgehouse Cohorts · 18 learners in a part-time evening cohort · beginners and self taught developers with inconsistent fundamentals
 
 
 
-- Quote:
+**Summary:** Live kickoff, Git drills, manual PR review after work hours. Pain: freeze on branch management and merge conflicts, stop committing for days without asking help. Tools: GitHub repos, Discord channels, spreadsheet for assignment progress. Progress: commit frequency tracked manually, gut feel, misses quiet learners. Ideal: one page engagement and blocker stages, intervene without reading every repo. Pricing: price works if onboarding under ten minutes, dashboard useful day one. Switching: setup heavy fails, runs everything self, cannot babysit integrations. Product feedback: drop abstract naming, sell practical win save instructor time reduce dropout. Intros: share link in one indie instructor Slack if message sharper first.
 
-- Insight:
 
-- Willingness to pilot (Y/N):
+
+- Quote: "If setup feels like homework, I am out."
+
+- Insight: Indie operators buy speed not feature volume, tighten onboarding simplify language
+
+- Willingness to pilot (Y/N): **MAYBE**
 
 
 
@@ -298,7 +302,7 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 
 - [x] Production cohort stack live (PM, comms, showcase, learning app)
 
-- [ ] Five qualified external customer interviews (founder), **4 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16; Derek Okafor, State Tech University, 2026-08-16; Nia Torres, Launchline Academy, 2026-08-16)
+- [x] Five qualified external customer interviews (founder), **5 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16; Derek Okafor, State Tech University, 2026-08-16; Nia Torres, Launchline Academy, 2026-08-16; Pavel Kim, Forgehouse Cohorts, 2026-08-16)
 
 - [x] Pricing validated by at least one external operator interview ($49/mo acceptable if saves 5+ hrs/week)
 
