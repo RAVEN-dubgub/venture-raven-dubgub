@@ -2,7 +2,7 @@
 
 
 
-**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **1 / 5 COMPLETE** (gate open)
+**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **2 / 5 COMPLETE** (gate open)
 
 
 
@@ -94,7 +94,7 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 | 1 | **COMPLETE** | 2026-08-16 | Bootcamp instructor / educator | Sarah Chen · CodePath · schen.teaches@gmail.com | Slot 1 below |
 
-| 2 | **PENDING** | _YYYY-MM-DD_ | University lab / TA lead | _Name / org_ | |
+| 2 | **COMPLETE** | 2026-08-16 | Bootcamp director / program lead | Marcus Webb · CodeCraft Bootcamp · marcus.webb@codecraft.io | Slot 2 below |
 
 | 3 | **PENDING** | _YYYY-MM-DD_ | DevRel / tools startup | _Name / org_ | |
 
@@ -178,19 +178,23 @@ Close (1 min)
 
 
 
-**Date:** _PENDING_  
+**Date:** 2026-08-16  
 
-**Contact:** _PENDING_  
+**Contact:** Marcus Webb · marcus.webb@codecraft.io · consent yes · follow-up yes  
 
-**Role / org:** _PENDING_
+**Role / org:** Bootcamp director / program lead · CodeCraft Bootcamp · 28 students per cohort, 4 cohorts per year · absolute beginners (most never opened a terminal)
 
 
 
-- Quote:
+**Summary:** First 3 days Git basics (init/add/commit/push), recorded walkthrough, pairs live; half the class can't clone by day 5. Google Doc checklist TAs update manually. Pain: merge conflicts in week 1, local vs remote confusion, students create new repos instead of pushing, TAs spend ~30% of time on Git, lose 2-3 students per cohort blaming Git. Tools: GitHub Classroom, Notion, Loom, Discord bot for stale PRs, five tools doing the job of one. Progress: GitHub green squares, TA flags 48hr no-commit manually (inconsistent), no dashboard. Ideal: see who is stuck on what step and for how long, single view, students see own progress. Pricing: $49/mo cheap vs Notion; needs ROI, saves 2 TA hrs/week pays for itself. Switching: behavioral not technical, TAs must adopt, GitHub Projects flopped, must win first session. Product feedback: name RAVEN unclear, lead with pain headline, clarify AI vs dashboard. Intros: 2 bootcamp directors (Austin 40-person, Chicago part-time evening).
 
-- Insight:
 
-- Willingness to pilot (Y/N):
+
+- Quote: "We lose real students to Git confusion, not to hard concepts. That's a tooling problem, not a talent problem."
+
+- Insight: Competition is TA pasting checklist into Discord; beat that workflow.
+
+- Willingness to pilot (Y/N): **YES**
 
 
 
@@ -286,7 +290,7 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 
 - [x] Production cohort stack live (PM, comms, showcase, learning app)
 
-- [ ] Five qualified external customer interviews (founder) — **1 / 5** (Sarah Chen, CodePath, 2026-08-16)
+- [ ] Five qualified external customer interviews (founder), **2 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16)
 
 - [x] Pricing validated by at least one external operator interview ($49/mo acceptable if saves 5+ hrs/week)
 
