@@ -2,7 +2,7 @@
 
 
 
-**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **2 / 5 COMPLETE** (gate open)
+**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **3 / 5 COMPLETE** (gate open)
 
 
 
@@ -96,7 +96,7 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 | 2 | **COMPLETE** | 2026-08-16 | Bootcamp director / program lead | Marcus Webb · CodeCraft Bootcamp · marcus.webb@codecraft.io | Slot 2 below |
 
-| 3 | **PENDING** | _YYYY-MM-DD_ | DevRel / tools startup | _Name / org_ | |
+| 3 | **COMPLETE** | 2026-08-16 | University lab / TA lead | Derek Okafor · State Tech University, CS Dept · d.okafor@statetech.edu | Slot 3 below |
 
 | 4 | **PENDING** | _YYYY-MM-DD_ | Indie program operator | _Name / org_ | |
 
@@ -202,19 +202,23 @@ Close (1 min)
 
 
 
-**Date:** _PENDING_  
+**Date:** 2026-08-16  
 
-**Contact:** _PENDING_  
+**Contact:** Derek Okafor · d.okafor@statetech.edu · consent yes · follow-up yes  
 
-**Role / org:** _PENDING_
+**Role / org:** University lab / TA lead · State Tech University, CS Dept · 60 undergrads per semester across 3 sections · mixed experience (some touched Git, most have not, all think they know more than they do)
 
 
 
-- Quote:
+**Summary:** PDF from 2019, 45-min lecture week 2 (half skip), Stack Overflow and office hours, no structured onboarding. Pain: force pushes, node_modules, passwords in commits, delete .git folder, Sunday nights untangling merges, 60 students zero visibility. Tools: GitHub Classroom and prayer, autograder timeouts, 404 links, email mismatch, Canvas links nobody reads. Progress: no signals, find out night before deadline, no dashboard, grad student with thesis. Ideal: flag students who have not touched repo in 5 days, low bar. Pricing: $49/mo fine if department pays, not self-expense, need free tier or edu discount or free pilot. Switching: nothing to switch from, risk is adoption/professor/IT/60 students signing up. Product feedback: form unclear what RAVEN does, need one-liner on first screen, who pays question. Intros: 2 other TAs, no promises, need faculty champion not TA.
 
-- Insight:
 
-- Willingness to pilot (Y/N):
+
+- Quote: "We find out students are lost when they email us the night before the deadline. By then it's too late to teach them anything."
+
+- Insight: Universities need free tier or edu agreement before pitching, procurement story first
+
+- Willingness to pilot (Y/N): **Maybe**
 
 
 
@@ -290,7 +294,7 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 
 - [x] Production cohort stack live (PM, comms, showcase, learning app)
 
-- [ ] Five qualified external customer interviews (founder), **2 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16)
+- [ ] Five qualified external customer interviews (founder), **3 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16; Derek Okafor, State Tech University, 2026-08-16)
 
 - [x] Pricing validated by at least one external operator interview ($49/mo acceptable if saves 5+ hrs/week)
 
