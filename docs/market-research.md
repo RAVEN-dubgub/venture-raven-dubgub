@@ -270,6 +270,34 @@ Close (1 min)
 
 
 
+### Interview 6 (supplemental DevRel)
+
+
+
+**Date:** 2026-08-16  
+
+**Contact:** Lena Brooks · lena@oscatalyst.org · consent yes · follow-up yes  
+
+**Role / org:** DevRel / tools startup · OpenSource Catalyst · 35 contributors in each onboarding batch · mixed from first time contributors to junior developers
+
+
+
+**Summary:** Onboarding sprints with maintainers, issue walkthroughs, contribution drills, manual Git workflow coaching. Pain: stall on branch hygiene and PR etiquette, review delays, maintainer fatigue. Tools: GitHub issues, Discord office hours, handbook docs with checklists. Progress: fragmented across repos and chat, react late, miss early intervention. Ideal: centralized progress visibility for mentors and contributors, actionable alerts for stalled onboarding. Pricing: price workable if measurable reduction in maintainer support burden during pilot. Switching: communication overhead and process retraining for maintainers, not technical integration. Product feedback: value story promising but vague, replace generic phrases with one measurable onboarding outcome. Intros: two DevRel peers if pilot metrics clearly defined before outreach.
+
+
+
+- Quote: "Maintainers burn out from onboarding noise before community momentum appears."
+
+- Insight: DevRel teams buy evidence, publish one concrete pilot metric and repeat everywhere
+
+- Willingness to pilot (Y/N): **YES**
+
+
+
+*Supplemental to the 5/5 pass gate. DevRel segment strengthens pilot metric framing for maintainer burden reduction.*
+
+
+
 ---
 
 
@@ -303,6 +331,8 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 - [x] Production cohort stack live (PM, comms, showcase, learning app)
 
 - [x] Five qualified external customer interviews (founder), **5 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16; Derek Okafor, State Tech University, 2026-08-16; Nia Torres, Launchline Academy, 2026-08-16; Pavel Kim, Forgehouse Cohorts, 2026-08-16)
+
+- [x] Supplemental DevRel interview logged (Lena Brooks, OpenSource Catalyst, 2026-08-16; YES pilot; maintainer burden metric framing)
 
 - [x] Pricing validated by at least one external operator interview ($49/mo acceptable if saves 5+ hrs/week)
 
