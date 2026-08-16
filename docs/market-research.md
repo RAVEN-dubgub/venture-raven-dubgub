@@ -2,7 +2,7 @@
 
 
 
-**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **3 / 5 COMPLETE** (gate open)
+**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **4 / 5 COMPLETE** (gate open)
 
 
 
@@ -98,7 +98,7 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 | 3 | **COMPLETE** | 2026-08-16 | University lab / TA lead | Derek Okafor · State Tech University, CS Dept · d.okafor@statetech.edu | Slot 3 below |
 
-| 4 | **PENDING** | _YYYY-MM-DD_ | Indie program operator | _Name / org_ | |
+| 4 | **COMPLETE** | 2026-08-16 | Bootcamp director / program lead | Nia Torres · Launchline Academy · nia@launchline.dev | Slot 4 below |
 
 | 5 | **PENDING** | _YYYY-MM-DD_ | Internal academy lead | _Name / org_ | |
 
@@ -226,19 +226,23 @@ Close (1 min)
 
 
 
-**Date:** _PENDING_  
+**Date:** 2026-08-16  
 
-**Contact:** _PENDING_  
+**Contact:** Nia Torres · nia@launchline.dev · consent yes · follow-up yes  
 
-**Role / org:** _PENDING_
+**Role / org:** Bootcamp director / program lead · Launchline Academy · 24 learners per full-time cohort · mostly career switchers with very little command line experience
 
 
 
-- Quote:
+**Summary:** Day one Git fundamentals lab, pair drills, guided PR practice; TAs patch issues manually all week. Pain: panic during merge conflicts and rebase mistakes, TAs spend too much time on repo cleanup vs project mentoring. Tools: GitHub Classroom, Notion trackers, Loom explainers, TA checklists in Slack threads. Progress: commit counts and assignment completion, but misses silently blocked students. Ideal: dashboard flags stuck learners early and shows what concept each learner is failing on. Pricing: $49 acceptable if time savings proven in first two weeks of pilot. Switching: retraining staff habits, if TAs need extra admin they ignore the product. Product feedback: message fuzzy, replace jargon with direct value to identify stuck learners before they fall behind. Intros: one operator Dallas, one Seattle with similar cohort sizes.
 
-- Insight:
 
-- Willingness to pilot (Y/N):
+
+- Quote: "Git confusion is still our biggest early retention killer."
+
+- Insight: Wedge is TA workload reduction; every page should prove that immediately
+
+- Willingness to pilot (Y/N): **YES**
 
 
 
@@ -294,7 +298,7 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 
 - [x] Production cohort stack live (PM, comms, showcase, learning app)
 
-- [ ] Five qualified external customer interviews (founder), **3 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16; Derek Okafor, State Tech University, 2026-08-16)
+- [ ] Five qualified external customer interviews (founder), **4 / 5** (Sarah Chen, CodePath, 2026-08-16; Marcus Webb, CodeCraft Bootcamp, 2026-08-16; Derek Okafor, State Tech University, 2026-08-16; Nia Torres, Launchline Academy, 2026-08-16)
 
 - [x] Pricing validated by at least one external operator interview ($49/mo acceptable if saves 5+ hrs/week)
 
