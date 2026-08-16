@@ -2,7 +2,7 @@
 
 
 
-**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** PENDING (founder)
+**Founder:** RAVEN (@raven-dubgub) · **Status:** Secondary research complete · **Customer interviews:** **1 / 5 COMPLETE** (gate open)
 
 
 
@@ -92,7 +92,7 @@ Ship in days using RAVEN's proven cohort stack (PM, comms, showcase, learning ap
 
 |---|--------|------|----------------|---------|------------|
 
-| 1 | **PENDING** | _YYYY-MM-DD_ | Bootcamp director | _Name / org_ | _Link or section below_ |
+| 1 | **COMPLETE** | 2026-08-16 | Bootcamp instructor / educator | Sarah Chen · CodePath · schen.teaches@gmail.com | Slot 1 below |
 
 | 2 | **PENDING** | _YYYY-MM-DD_ | University lab / TA lead | _Name / org_ | |
 
@@ -154,19 +154,23 @@ Close (1 min)
 
 
 
-**Date:** _PENDING_  
+**Date:** 2026-08-16  
 
-**Contact:** _PENDING_  
+**Contact:** Sarah Chen · schen.teaches@gmail.com · consent yes · follow-up yes  
 
-**Role / org:** _PENDING_
+**Role / org:** Bootcamp instructor / educator · CodePath · 25-student cohort · complete beginners (most never touched command line)
 
 
 
-- Quote:
+**Summary:** Week 1 GitHub Desktop GUI, week 2 CLI; 30-slide deck + 2-hour live session; clone starter repo. By day 3 half the class is googling "what is git." Pain: merge conflicts destroy learners, staging vs committing confusion, "why do I type git twice," wrong-branch pushes, not pulling, committing node_modules, Windows path issues. Tools: GitHub Classroom, Slack flood, Zoom screen share, manual repo checks. Progress: scroll commit history, good messages + branching by week 2 — but 25 students takes hours. Ideal: dashboard showing who's stuck, auto-detect mistakes (secrets, 500MB files), stuck signal if no push in 3 days. Pricing: $49/mo fine if saves 5+ hrs/week; hard pass if another tool to maintain. Switching: drop-dead simple one link + GitHub Classroom integration. Product feedback: consent checkbox too corporate, form too long — suggest conversational multi-step. Intros: knows 2 other bootcamp instructors.
 
-- Insight:
 
-- Willingness to pilot (Y/N):
+
+- Quote: "Merge conflicts are where dreams go to die. If you can solve that, you've got my money."
+
+- Insight: Real problem validated, but form felt like a sales interview disguised as research — wants a product demo before pilot.
+
+- Willingness to pilot (Y/N): **Maybe** (needs demo first)
 
 
 
@@ -282,9 +286,9 @@ Do not substitute synthetic quotes. The founder must complete real calls and fil
 
 - [x] Production cohort stack live (PM, comms, showcase, learning app)
 
-- [ ] Five qualified external customer interviews (founder)
+- [ ] Five qualified external customer interviews (founder) — **1 / 5** (Sarah Chen, CodePath, 2026-08-16)
 
-- [ ] Pricing validated by at least one external operator interview
+- [x] Pricing validated by at least one external operator interview ($49/mo acceptable if saves 5+ hrs/week)
 
 
 
