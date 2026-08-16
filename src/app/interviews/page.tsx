@@ -56,7 +56,11 @@ export default function InterviewsPage() {
     if (!response.ok) {
       const error = await response.json().catch(() => ({}));
       setState("error");
-      setErrorMessage(error.error ?? "Unable to submit responses.");
+      const fieldHint =
+        Array.isArray(error.fields) && error.fields.length > 0
+          ? ` (${error.fields.join(", ")})`
+          : "";
+      setErrorMessage((error.error ?? "Unable to submit responses.") + fieldHint);
       return;
     }
 
@@ -181,6 +185,7 @@ export default function InterviewsPage() {
               id="onboardingProcess"
               name="onboardingProcess"
               required
+              minLength={10}
               rows={4}
               className="input-field min-h-[6rem] resize-y"
               placeholder="Walk through week one of your last cohort."
@@ -195,6 +200,7 @@ export default function InterviewsPage() {
               id="painPoints"
               name="painPoints"
               required
+              minLength={10}
               rows={4}
               className="input-field min-h-[6rem] resize-y"
             />
@@ -208,6 +214,7 @@ export default function InterviewsPage() {
               id="currentTools"
               name="currentTools"
               required
+              minLength={3}
               rows={3}
               className="input-field min-h-[5rem] resize-y"
               placeholder="Discord, Notion, LMS, GitHub Classroom, custom stack…"
@@ -222,6 +229,7 @@ export default function InterviewsPage() {
               id="progressSignals"
               name="progressSignals"
               required
+              minLength={10}
               rows={3}
               className="input-field min-h-[5rem] resize-y"
             />
@@ -235,6 +243,7 @@ export default function InterviewsPage() {
               id="idealOutcome"
               name="idealOutcome"
               required
+              minLength={10}
               rows={3}
               className="input-field min-h-[5rem] resize-y"
             />
@@ -252,6 +261,7 @@ export default function InterviewsPage() {
               id="pricingFeedback"
               name="pricingFeedback"
               required
+              minLength={3}
               rows={3}
               className="input-field min-h-[5rem] resize-y"
             />
@@ -265,6 +275,7 @@ export default function InterviewsPage() {
               id="switchingCost"
               name="switchingCost"
               required
+              minLength={3}
               rows={3}
               className="input-field min-h-[5rem] resize-y"
               placeholder="Who signs off: you, director, finance?"

@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import {
   interviewSubmissionSchema,
@@ -10,10 +9,27 @@ import {
 import { prisma } from "@/lib/prisma";
 
 export async function POST(request: Request) {
+  let json: unknown;
   try {
-    const body = interviewSubmissionSchema.parse(await request.json());
+    json = await request.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
+  }
+
+  const parsed = interviewSubmissionSchema.safeParse(json);
+  if (!parsed.success) {
+    return NextResponse.json(
+      {
+        error: "Invalid submission. Check required fields, minimum lengths, and consent.",
+        fields: parsed.error.issues.map((issue) => issue.path.join(".")).filter(Boolean),
+      },
+      { status: 400 },
+    );
+  }
+
+  try {
     const submission = await prisma.interviewSubmission.create({
-      data: toInterviewSubmissionData(body),
+      data: toInterviewSubmissionData(parsed.data),
     });
 
     return NextResponse.json(
@@ -25,12 +41,6 @@ export async function POST(request: Request) {
       { status: 201 },
     );
   } catch (error) {
-    if (error instanceof z.ZodError) {
-      return NextResponse.json(
-        { error: "Invalid submission. Check required fields and consent." },
-        { status: 400 },
-      );
-    }
     console.error("interview submission failed", error);
     return NextResponse.json({ error: "Unable to save submission" }, { status: 503 });
   }
